@@ -73,6 +73,26 @@ http://ott-cdn.ucom.am/s82/04.m3u8
 http://92.46.127.146:8080/SetantaSportPlus/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", SENTANA SPORT
 http://ott-cdn.ucom.am/s81/04.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Футбол 1 HD
+http://s1.only4.tv:80/14105/video.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Футбол 2 HD
+http://s1.only4.tv:80/1401/video.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Футбол 3 HD
+http://s1.only4.tv:80/1402/video.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Матч Арена
+http://s1.only4.tv:80/1301/video.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Матч Арена HD
+http://fcbfdefc.iptvzone.net/iptv/9RQUCKQ9E3E44Q/207/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Матч
+http://s1.only4.tv:80/2204/video.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Матч Игра
+http://s1.only4.tv:80/1303/video.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", EuroSport 1
+http://fcbfdefc.iptvzone.net/iptv/9RQUCKQ9E3E44Q/141/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Eurosport 1 HD
+http://fcbfdefc.iptvzone.net/iptv/9RQUCKQ9E3E44Q/228/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Eurosport 2 North-East HD
+http://fcbfdefc.iptvzone.net/iptv/9RQUCKQ9E3E44Q/234/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", XSport
 http://streamer-hls.fregat.net/hls/xsport.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Viasat Sport
@@ -105,17 +125,3 @@ http://91.109.113.38:8000/play/a07e
 http://185-125-230-172.livesports24.online/btsporteurope.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/123.png" group-title="Sport", BT Sport 3
 http://deadpool.live:8080/123/123/6892
-#EXTINF:-1,PT: SPORT TV 1 HD 1080P
-http://jarvis.bet:80/live/michael1/12345678/38732.m3u8
-#EXTINF:-1,PT: SPORT TV 2 HD 1080P
-http://jarvis.bet:80/live/michael1/12345678/38731.m3u8
-#EXTINF:-1,PT: SPORT TV 3 HD 1080P
-http://jarvis.bet:80/live/michael1/12345678/38730.m3u8
-#EXTINF:-1,PT: SPORT TV 4 HD 1080P
-http://jarvis.bet:80/live/michael1/12345678/38729.m3u8
-#EXTINF:-1,PT: SPORT TV 5 HD 1080P
-http://jarvis.bet:80/live/michael1/12345678/38728.m3u8
-#EXTINF:-1,PT: Sport TV HD
-http://jarvis.bet:80/live/michael1/12345678/38824.m3u8
-#EXTINF:-1,PT: SPORT TV HD 1080P
-http://jarvis.bet:80/live/michael1/12345678/38727.m3u8
