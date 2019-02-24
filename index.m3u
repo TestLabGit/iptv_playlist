@@ -1,0 +1,61 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ТНТ4
+http://ott-cdn.ucom.am/s100/04.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ТНТ
+http://meta.vcdn.biz/1ff4118dc0fefcbd3ce5ae5fdf2fc482_megogo/vod/fs/o/40500701/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-b2490000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", СТС
+http://vs307.vcdn.biz/f6681bf4f562aec018b39c4bf3316dc6_megogo/vod/fs/o/40256721/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-b2490000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", СТС International
+http://sc.id-tv.kz/STS_38_39.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия 1
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r1.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия 1 HD
+http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist_4.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия HD
+http://217.21.34.158:30000/rossiahd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия 24
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r24.smil/chunklist_b1200000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия 24 (HD)
+http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия К
+http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_k/playlist_3.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия РТР
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ТВЦ
+http://tvc-hls.cdnvideo.ru/tvc-p222/smil:tvc_p11.smil/chunklist_b1703000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Первый канал
+http://176.101.224.21:8080/udp/239.195.32.1:1234
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Мир Premium HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Мир 24 HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Мир HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", RT Документальный HD
+http://rtmp.api.rt.com/hls/rtdru.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Рен ТВ
+http://176.101.224.21:8080/udp/239.195.32.18:1234
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Рен ТВ International
+http://sc.id-tv.kz/RenTV_38_39.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ТВ3
+http://176.101.224.21:8080/udp/239.195.32.15:1234
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", НТВ
+http://vs307.vcdn.biz/f8a5a91d4e5c0599e6825202d049b01a_megogo/vod/fs/o/41139311/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-b2490000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", VIP COMEDY
+http://ott-cdn.ucom.am/s97/04.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="News", ПЯТНИЦА
+http://ott-cdn.ucom.am/s50/04.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", SENTANA SPORT+
+http://ott-cdn.ucom.am/s82/04.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", SENTANA SPORT+ HD
+http://92.46.127.146:8080/SetantaSportPlus/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", SENTANA SPORT
+http://ott-cdn.ucom.am/s81/04.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", XSport
+http://streamer-hls.fregat.net/hls/xsport.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Viasat Sport
+http://streamer-hls.fregat.net/hls/viasatsport.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Viasat Sport HD
+http://streamer-hls.fregat.net/hls/viasatsporthd.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Астрахань.Ru Sport
+http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v1a1/index.m3u8
