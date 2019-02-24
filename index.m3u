@@ -41,10 +41,32 @@ http://sc.id-tv.kz/RenTV_38_39.m3u8
 http://176.101.224.21:8080/udp/239.195.32.15:1234
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", НТВ
 http://vs307.vcdn.biz/f8a5a91d4e5c0599e6825202d049b01a_megogo/vod/fs/o/41139311/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-b2490000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", НТВ Молдова
+http://93.115.137.166/hls/ntvm.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", VIP COMEDY
 http://ott-cdn.ucom.am/s97/04.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="News", ПЯТНИЦА
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ПЯТНИЦА
 http://ott-cdn.ucom.am/s50/04.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Интер
+http://37.57.21.147:8888/udp/238.0.0.4:1234
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Новий канал
+http://tv.crypton.com.ua/stream?id=3470
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ТЕТ
+http://37.57.21.147:8888/udp/238.0.0.11:1234
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", СТБ
+http://tv.crypton.com.ua/stream?id=3468
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", 1+1
+http://tv.crypton.com.ua/stream?id=3576
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", 1+1 International
+http://tv.crypton.com.ua/stream?id=3539
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", 2+2
+http://37.57.21.147:8888/udp/238.0.0.50:1234
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", НЛО
+http://tv.crypton.com.ua/stream?id=3476
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", М-1
+http://tv.crypton.com.ua/stream?id=3471
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", MEGA
+http://tv.crypton.com.ua/stream?id=3570
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", SENTANA SPORT+
 http://ott-cdn.ucom.am/s82/04.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", SENTANA SPORT+ HD
@@ -57,5 +79,43 @@ http://streamer-hls.fregat.net/hls/xsport.m3u8
 http://streamer-hls.fregat.net/hls/viasatsport.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Viasat Sport HD
 http://streamer-hls.fregat.net/hls/viasatsporthd.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Астрахань.Ru Sport
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Астрахань.Ru Sport
 http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="https://webarmen.com/my/iptv/uploads/icon/91.png" group-title="Sport", BeIn Sport
+http://fpoint1.zapto.org:2000/beINSPORTSHD/mpegts?token=OK_978wrkhYuy65
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="https://webarmen.com/my/iptv/uploads/icon/112.png" group-title="Sport", Sky Sports 2
+http://185.236.229.14:8000/play/a0y6
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/114.png" group-title="Sport", Sky Sports 4
+http://5.254.66.150:8080/NveUQFurR3/dMFY9DbG2a/9436
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/169.png" group-title="Sport", Sky Sports F1
+http://5.254.66.150:25461/NveUQFurR3/dMFY9DbG2a/4778
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/126.png" group-title="Sport", SKY Sport News HD
+http://5.44.126.198:9981/stream/channelid/760845176
+##EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/125.png" group-title="Sport", Sky Sport News
+http://p4.giffy.be:80/sandy/1234/30075
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/117.png" group-title="Sport", BT Sport 1 HD
+http://gorillaiptv.online:25461/BWwGoSiTGA/Te91NfmvAC/1019
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/116.png" group-title="Sport", BT Sport 1
+http://deadpool.live:8080/123/123/6890
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/118.png" group-title="Sport", BT Sport 2 HD
+https://edgetv-nl-03.mycdn.video/btsport2/index.m3u8?token=66c543ce7282e2bbe6bcae0080854219e790f266-7f000158dd66ddbc036dcbcbc0def5b1-1550683510-1550597110
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/115.png" group-title="Sport", BT Sport 2
+http://91.109.113.38:8000/play/a07e
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/124.png" group-title="Sport", BT Sport 3 HD
+http://185-125-230-172.livesports24.online/btsporteurope.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/123.png" group-title="Sport", BT Sport 3
+http://deadpool.live:8080/123/123/6892
+#EXTINF:-1,PT: SPORT TV 1 HD 1080P
+http://jarvis.bet:80/live/michael1/12345678/38732.m3u8
+#EXTINF:-1,PT: SPORT TV 2 HD 1080P
+http://jarvis.bet:80/live/michael1/12345678/38731.m3u8
+#EXTINF:-1,PT: SPORT TV 3 HD 1080P
+http://jarvis.bet:80/live/michael1/12345678/38730.m3u8
+#EXTINF:-1,PT: SPORT TV 4 HD 1080P
+http://jarvis.bet:80/live/michael1/12345678/38729.m3u8
+#EXTINF:-1,PT: SPORT TV 5 HD 1080P
+http://jarvis.bet:80/live/michael1/12345678/38728.m3u8
+#EXTINF:-1,PT: Sport TV HD
+http://jarvis.bet:80/live/michael1/12345678/38824.m3u8
+#EXTINF:-1,PT: SPORT TV HD 1080P
+http://jarvis.bet:80/live/michael1/12345678/38727.m3u8
