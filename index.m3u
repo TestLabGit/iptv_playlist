@@ -11,8 +11,6 @@ http://sc.id-tv.kz/STS_38_39.m3u8
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r1.smil/chunklist_b1600000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия 1 HD
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist_4.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия HD
-http://217.21.34.158:30000/rossiahd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия 24
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r24.smil/chunklist_b1200000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия 24 (HD)
@@ -39,12 +37,18 @@ http://176.101.224.21:8080/udp/239.195.32.18:1234
 http://sc.id-tv.kz/RenTV_38_39.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ТВ3
 http://176.101.224.21:8080/udp/239.195.32.15:1234
+#EXTINF:-1 tvg-id="12772" tvg-name="НТВ HD" tvg-logo="https://webarmen.com/my/iptv/uploads/icon/48.png" group-title="", НТВ HD
+http://live-4-202.rutube.ru/stream/10113616/42a58f895935bbf495089a2e1fe15e46/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", НТВ
 http://vs307.vcdn.biz/f8a5a91d4e5c0599e6825202d049b01a_megogo/vod/fs/o/41139311/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-b2490000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", НТВ Молдова
 http://93.115.137.166/hls/ntvm.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", VIP COMEDY
 http://ott-cdn.ucom.am/s97/04.m3u8
+#EXTINF:-1 group-title="Развлекательные;HD" tvg-id="1462" tvg-logo="https://webarmen.com/my/iptv/uploads/icon/46.png" tvg-name="FOX HD",FOX HD
+http://91.202.196.122:8000/play/a005/index.m3u8
+#EXTINF:-1 group-title="Развлекательные" tvg-id="401" tvg-logo="https://webarmen.com/my/iptv/uploads/icon/9.png" tvg-name="FOX",FOX
+http://193.233.180.70:999/udp/239.191.254.107:13343
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ПЯТНИЦА
 http://ott-cdn.ucom.am/s50/04.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Интер
@@ -73,46 +77,12 @@ http://ott-cdn.ucom.am/s82/04.m3u8
 http://92.46.127.146:8080/SetantaSportPlus/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", SENTANA SPORT
 http://ott-cdn.ucom.am/s81/04.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Футбол 1 HD
-http://s1.only4.tv:80/14105/video.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Футбол 2 HD
-http://s1.only4.tv:80/1401/video.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Футбол 3 HD
-http://s1.only4.tv:80/1402/video.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Матч Арена
-http://s1.only4.tv:80/1301/video.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Матч Арена HD
-http://fcbfdefc.iptvzone.net/iptv/9RQUCKQ9E3E44Q/207/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Матч
-http://s1.only4.tv:80/2204/video.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Матч Игра
-http://s1.only4.tv:80/1303/video.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", EuroSport 1
-http://fcbfdefc.iptvzone.net/iptv/9RQUCKQ9E3E44Q/141/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Eurosport 1 HD
-http://fcbfdefc.iptvzone.net/iptv/9RQUCKQ9E3E44Q/228/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Eurosport 2 North-East HD
-http://fcbfdefc.iptvzone.net/iptv/9RQUCKQ9E3E44Q/234/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", XSport
-http://streamer-hls.fregat.net/hls/xsport.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Viasat Sport
-http://streamer-hls.fregat.net/hls/viasatsport.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Viasat Sport HD
-http://streamer-hls.fregat.net/hls/viasatsporthd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Астрахань.Ru Sport
 http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="https://webarmen.com/my/iptv/uploads/icon/91.png" group-title="Sport", BeIn Sport
-http://fpoint1.zapto.org:2000/beINSPORTSHD/mpegts?token=OK_978wrkhYuy65
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="https://webarmen.com/my/iptv/uploads/icon/112.png" group-title="Sport", Sky Sports 2
-http://185.236.229.14:8000/play/a0y6
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/114.png" group-title="Sport", Sky Sports 4
-http://5.254.66.150:8080/NveUQFurR3/dMFY9DbG2a/9436
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/169.png" group-title="Sport", Sky Sports F1
-http://5.254.66.150:25461/NveUQFurR3/dMFY9DbG2a/4778
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/126.png" group-title="Sport", SKY Sport News HD
-http://5.44.126.198:9981/stream/channelid/760845176
-##EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/125.png" group-title="Sport", Sky Sport News
-http://p4.giffy.be:80/sandy/1234/30075
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Матч Игра
+http://gorod.tv/s/live/3/86.169.51.136/1/0.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Матч Игра[2]
+http://hls.novotelecom.ru/streaming/sport/tvrecw/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/117.png" group-title="Sport", BT Sport 1 HD
 http://gorillaiptv.online:25461/BWwGoSiTGA/Te91NfmvAC/1019
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/116.png" group-title="Sport", BT Sport 1
