@@ -1,27 +1,15 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ТНТ4
 http://ott-cdn.ucom.am/s100/04.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ТНТ
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ТНТ [IV_1]  
 http://meta.vcdn.biz/1ff4118dc0fefcbd3ce5ae5fdf2fc482_megogo/vod/fs/o/40500701/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-b2490000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", СТС
 http://vs307.vcdn.biz/f6681bf4f562aec018b39c4bf3316dc6_megogo/vod/fs/o/40256721/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-b2490000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", СТС International
 http://sc.id-tv.kz/STS_38_39.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия 1
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r1.smil/chunklist_b1600000.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия 1 HD
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist_4.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия 24
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r24.smil/chunklist_b1200000.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия 24 (HD)
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия К
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_k/playlist_3.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Россия РТР
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/chunklist_b1600000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ТВЦ
 http://tvc-hls.cdnvideo.ru/tvc-p222/smil:tvc_p11.smil/chunklist_b1703000.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Первый канал
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Первый канал [IV_1]
 http://176.101.224.21:8080/udp/239.195.32.1:1234
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Мир Premium HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
@@ -45,10 +33,6 @@ http://vs307.vcdn.biz/f8a5a91d4e5c0599e6825202d049b01a_megogo/vod/fs/o/41139311/
 http://93.115.137.166/hls/ntvm.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", VIP COMEDY
 http://ott-cdn.ucom.am/s97/04.m3u8
-#EXTINF:-1 group-title="Развлекательные;HD" tvg-id="1462" tvg-logo="https://webarmen.com/my/iptv/uploads/icon/46.png" tvg-name="FOX HD",FOX HD
-http://91.202.196.122:8000/play/a005/index.m3u8
-#EXTINF:-1 group-title="Развлекательные" tvg-id="401" tvg-logo="https://webarmen.com/my/iptv/uploads/icon/9.png" tvg-name="FOX",FOX
-http://193.233.180.70:999/udp/239.191.254.107:13343
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", ПЯТНИЦА
 http://ott-cdn.ucom.am/s50/04.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Интер
@@ -79,10 +63,8 @@ http://92.46.127.146:8080/SetantaSportPlus/index.m3u8
 http://ott-cdn.ucom.am/s81/04.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="Sport", Астрахань.Ru Sport
 http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Матч Игра
+#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Матч Игра [IV_1]
 http://gorod.tv/s/live/3/86.169.51.136/1/0.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" audio-track="" tvg-logo="" group-title="", Матч Игра[2]
-http://hls.novotelecom.ru/streaming/sport/tvrecw/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/117.png" group-title="Sport", BT Sport 1 HD
 http://gorillaiptv.online:25461/BWwGoSiTGA/Te91NfmvAC/1019
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/116.png" group-title="Sport", BT Sport 1
@@ -95,6 +77,3 @@ http://91.109.113.38:8000/play/a07e
 http://185-125-230-172.livesports24.online/btsporteurope.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/123.png" group-title="Sport", BT Sport 3
 http://deadpool.live:8080/123/123/6892
-#EXTM3U
-#EXTVLCOPT:network-caching=1000
-7549fb45721ed757491df435038cd4e8798d6624
