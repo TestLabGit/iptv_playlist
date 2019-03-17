@@ -1,5 +1,5 @@
 import os
-import urllib2
+import urllib.request
 
 
 
@@ -20,7 +20,7 @@ class PlaylistDownloader():
             'http://iptv.slynet.tv/PeerstvSlyNet.m3u',
             'http://listiptv.ru/iptv18.m3u'
         ]
-        
+
     def append_url(self, url):
         self.playlist_array.append(url);
 
@@ -28,18 +28,17 @@ class PlaylistDownloader():
         self.clean()
         for ctr, value in enumerate(self.playlist_array):
             try:
-                filedata = urllib2.urlopen(value)
+                filedata = urllib.request.urlopen(value)
                 datatowrite = filedata.read()
                 filename = "playlist_" + str(ctr+1) + ".m3u"
                 playlist_path = self.directory + filename  
                 with open(playlist_path, 'wb') as f:  
                     f.write(datatowrite)
-            except urllib2.HTTPError as e:
+            except urllib.error.HTTPError as e:
                 print('Url: {} | HTTPError reason: {}'.format(value, e.reason))
     
     def clean(self):
         for filename in os.listdir(self.directory):
             if filename.endswith('.m3u'):
                 os.unlink(self.directory + filename)
-        
-    
+                
