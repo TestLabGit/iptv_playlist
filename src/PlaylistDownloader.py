@@ -1,31 +1,24 @@
 import os
 import urllib.request
-
+from io import BytesIO
+from zipfile import ZipFile
+import requests
 
 
 class PlaylistDownloader():
 
-    def __init__(self):
+    def __init__(self, playlist_array, zip_playlist_array=None):
         dirname = os.path.dirname(__file__)
         self.directory = dirname + "/playlists/"
         if not os.path.isdir(self.directory):
             os.makedirs(self.directory) 
-        self.playlist_array = [  
-            'https://webhalpme.ru/iptvforever.m3u',
-            'https://webhalpme.ru/ruiptvforever.m3u',
-            'https://smarttvnews.ru/apps/iptvchannels.m3u',
-            'https://smarttvnews.ru/apps/iptvfreefull.m3u',
-            'https://smarttvapp.ru/app/iptvfull.m3u',
-            'http://iptv.slynet.tv/FreeBestTV.m3u', 
-            'http://iptv.slynet.tv/PeerstvSlyNet.m3u',
-            'http://listiptv.ru/iptv18.m3u'
-        ]
+        self.playlist_array = playlist_array
+        self.zip_playlist_array = []
+        if zip_playlist_array != None:
+            self.zip_playlist_array = zip_playlist_array
 
-    def append_url(self, url):
-        self.playlist_array.append(url);
-
-    def save(self):
-        self.clean()
+    def save_playlists(self):
+        self.__clean()
         for ctr, value in enumerate(self.playlist_array):
             try:
                 filedata = urllib.request.urlopen(value)
@@ -37,8 +30,32 @@ class PlaylistDownloader():
             except urllib.error.HTTPError as e:
                 print('Url: {} | HTTPError reason: {}'.format(value, e.reason))
     
-    def clean(self):
+    def save_zip_playlist(self):
+        for url in self.zip_playlist_array:
+            response = requests.get(url)
+            with ZipFile(BytesIO(response.content)) as zip_file:
+                for file in zip_file.namelist():
+                    with open((self.directory + file), "wb") as output:
+                        for line in zip_file.open(file).readlines():
+                            output.write(line)
+
+    def save_raw_playlist(self):
+        self.save_playlists()
+        if len(self.zip_playlist_array) > 0:
+            self.save_zip_playlist()
+        with open(self.directory + "raw_playlist.m3u", 'w+', encoding='utf-8') as outfile:
+            for filename in os.listdir(self.directory):
+                with open(self.directory + filename, encoding='utf-8') as infile:
+                    outfile.write(infile.read())
+        self.__clean("playlist_")
+        self.__clean("")
+
+    def __clean(self, pattern=""):
         for filename in os.listdir(self.directory):
-            if filename.endswith('.m3u'):
-                os.unlink(self.directory + filename)
+            if pattern != "":
+                if filename.startswith(pattern):
+                    os.unlink(self.directory + filename)    
+            elif filename.endswith('.m3u'):
+                if filename != "raw_playlist.m3u":
+                    os.unlink(self.directory + filename)
                 
