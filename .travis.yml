@@ -1,0 +1,19 @@
+language: python
+python:
+  - '3.6'
+install:
+  - pip install -r requirements.txt
+jobs:
+  include:
+    - stage: test
+      script: 
+        - python src/test.py
+    - stage: build
+      script: 
+        - python src/run.py
+    - stage: deploy
+      script: 
+        - bash src/deploy.sh
+env:
+  global:
+    secure: FCD2Icrv5Q81M17prhQoCQYtLeyIMPGMuL/flLn+TQzpJvqXWBG6yacAhAba93AGErs6r9dZlzvMq/uGi6rgMrA6kKGwUA/lG9f0cWDMS4m+wkULv+W8GTdWvZSgQnZxsde+7P5PorRMi9gtmNuETm0czGuQAMN5KOT9rAF7UD2NSQdpKfoJH/5CCQ+KBMOX5PQetbkx7HwmgF8BC7U0oTnD8QO0ImVWoRs4UNMneytBJVLo5DrCGXl7zsnbgNCDfTtDbtjtJje7wcFUzmBR69uhAgGSSn9ZZ3X5Z1AmiKN5oLIA3dAPAeyWE3X+CY3qu/Kly1NX+huZtEW9WHeQ1LmWNJFgL+sZnPd4x72XlSK6XZv560xAnB5iBr8+0amGat6cw4KOQ58QM4fK5IOPBJ3RRT7bhZp266OayjBHux3FJrmJUzZWRdt0lJhpobIUJqBAiwL43zwEWNkgWywJc3Bl2zH3fCe89e8HzyJrVG9n1k2bnVTi3ovri6xUyRvETCRFmagS+2ul10tyZ6/G694IIGNdoKi9SzAhUWZEBflLGcpR5Cc9Q+8/0lCmhBvwMsmdAg8xSOf6UuP0bLMfFLBHIIdea1Oy+zs9PQAPBr3q1NRTmoLewv8y2OFQMopZAM73/nue7j+yAcAOiWIzreaNoMyJp7mnJ4F8LcjRtqo=

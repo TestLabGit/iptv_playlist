@@ -77,3 +77,11 @@ http://91.109.113.38:8000/play/a07e
 http://185-125-230-172.livesports24.online/btsporteurope.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" audio-track=""  tvg-logo="https://webarmen.com/my/iptv/uploads/icon/123.png" group-title="Sport", BT Sport 3
 http://deadpool.live:8080/123/123/6892
+#EXTINF:-1,Eurosport 1 [IV_1]
+http://51.15.161.236:25461/live/nicsky/fuckface/1915.m3u8
+#EXTINF:-1,Eurosport 1 HD [IV_1]
+http://91.231.219.145:80/tv_eurosport_1_HD/video.m3u8
+#EXTINF:-1,Eurosport 2 [IV_1]
+http://51.15.161.236:25461/live/nicsky/fuckface/1914.m3u8
+#EXTINF:-1,Eurosport 2 HD [IV_1]
+http://91.231.219.145:80/tv_eurosport_2_HD/video.m3u8
