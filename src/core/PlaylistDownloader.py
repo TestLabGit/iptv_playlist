@@ -4,6 +4,11 @@ from io import BytesIO
 from zipfile import ZipFile
 import requests
 
+import sys
+sys.path.append('..')
+from src import pl_logger
+
+
 
 class PlaylistDownloader():
 
@@ -16,6 +21,7 @@ class PlaylistDownloader():
         self.zip_playlist_array = []
         if zip_playlist_array != None:
             self.zip_playlist_array = zip_playlist_array
+        pl_logger.info("Playlist downloader started")
 
     def save_playlists(self):
         self.__clean()
@@ -28,8 +34,8 @@ class PlaylistDownloader():
                 with open(playlist_path, 'wb') as f:  
                     f.write(datatowrite)
             except urllib.error.HTTPError as e:
-                print('Url: {} | HTTPError reason: {}'.format(value, e.reason))
-    
+                pl_logger.exception('Check url: {} | HTTPError reason: {}'.format(url, e.code))
+                
     def save_zip_playlist(self):
         for url in self.zip_playlist_array:
             response = requests.get(url)
@@ -48,7 +54,7 @@ class PlaylistDownloader():
                 with open(self.directory + filename, encoding='utf-8') as infile:
                     outfile.write(infile.read())
         self.__clean("playlist_")
-        self.__clean("")
+        self.__clean()
 
     def __clean(self, pattern=""):
         for filename in os.listdir(self.directory):

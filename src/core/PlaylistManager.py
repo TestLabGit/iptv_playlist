@@ -5,8 +5,12 @@ import re
 import json
 import validators
 
-from src.PlaylistDownloader import *
-from src.StreamChecker import *
+from .PlaylistDownloader import PlaylistDownloader
+from .StreamChecker import StreamChecker
+
+import sys
+sys.path.append('..')
+from src import pl_logger
 
 
 
@@ -19,10 +23,12 @@ class PlaylistManager:
         self.ch_name_array = []
         for ix in range(0, len(ch_name_array)):
             self.ch_name_array.append(ch_name_array[ix].lower())
+        pl_logger.info("Playlist manager started")
         
     def get_ch_list(self, filename):
         ch_list = []
-        
+        n_lines = sum(1 for line in open(filename encoding='utf-8'))
+
         with open(filename, encoding='utf-8') as fpl:  
             line = fpl.readline()
             line_cnt = 1
@@ -32,7 +38,9 @@ class PlaylistManager:
                 line_cnt += 1
             
             while line:
-                print(line_cnt)
+                if line_cnt % 1000 == 0:
+                    print('Viewed {} lines out of {}'.format(line_cnt, n_lines)
+                
                 if line.startswith('#EXTINF'):
                     ch_name_ix = line.rfind(',')
                     ch_name = line[ch_name_ix+1:].strip()
@@ -59,7 +67,7 @@ class PlaylistManager:
                         line_cnt += 1
                     
                     if line and validators.url(line):
-                        if self.stream_checker.is_active(line):
+                        if self.stream_checker.is_active(line) and self.stream_checker.is_active_in_vlc(line):
                             params_json['ch_url'] = line.rstrip()
                             line = fpl.readline()
                             line_cnt += 1
@@ -76,20 +84,17 @@ class PlaylistManager:
                                         ch['ch_url'] == params_json['ch_url']:
                                     ch_list.pop()   
                 else:
-                    #print('{} {}, in file: {}'.format("Bad format of channel on line:", line_cnt, filename))
-                    #print(line)
+                    pl_logger.exception('{} {}, in file: {}'.format("Bad format of channel on line:", line_cnt, filename))
                     line = fpl.readline()
                     line_cnt += 1
-            # for el in ch_list:
-            #     print(el)
             return ch_list
 
-    def backup(self):
+    def backup(self, filename):
         dirname = os.path.dirname(__file__)
         directory = dirname + "/backup"
         if not os.path.isdir(directory):
             os.makedirs(directory) 
-            copy2('/../index.m3u', directory + '/index_prev.m3u') 
+            copy2(filename, directory + '/index_prev.m3u') 
 
     def __create_ch_data(self, ch_dict_info):
         ch_data = ch_dict_info['EXTINF']
@@ -104,7 +109,6 @@ class PlaylistManager:
         return ch_data
 
     def create_list(self, playlist_name):
-        self.backup()
         dirname = os.path.dirname(__file__)
         directory = dirname + "/playlists"  
         filenames_list = glob.glob(directory + "/*.m3u")
@@ -121,3 +125,4 @@ class PlaylistManager:
             for ch in sort_ch_list:
                 ch_data = self.__create_ch_data(ch)
                 res_pl.write(ch_data)
+        pl_logger.info("Playlist downloader create playlist: %s", playlist_name)
