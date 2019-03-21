@@ -66,8 +66,8 @@ def test3():
     sc = StreamChecker()
     assert sc.is_active('http://stream.mediawork.cz/retrotv//retrotvHQ1/playlist.m3u8﻿#EXTM3U') == False
     assert sc.is_active('http://ott-cdn.ucom.am/s51/04.m3u8') == True
-    print(sc.is_active_in_vlc('http://ott-cdn.ucom.am/s51/04.m3u8'))
-    print(sc.is_active_in_vlc('http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8\n'))
+    #print(sc.is_active_in_vlc('http://ott-cdn.ucom.am/s51/04.m3u8'))
+    #print(sc.is_active_in_vlc('http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8\n'))
 
 if __name__ == '__main__':
     test1()
