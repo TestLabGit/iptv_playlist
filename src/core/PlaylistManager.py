@@ -131,10 +131,20 @@ class PlaylistManager:
         res_pl = open(directory_result + "/" + playlist_name + ".m3u","w+", encoding='utf-8')
         res_pl.write('#EXTM3U\n')
         
+        from multiprocessing.pool import ThreadPool
+        n_processes = 4
+        pool = ThreadPool(processes=n_processes)
+  
+        async_list = []
         for file in filenames_list:
-            tmp_ch_list = self.get_ch_list(file)
-            sort_ch_list = sorted(tmp_ch_list, key=lambda k: k['ch_name']) 
-            for ch in sort_ch_list:
-                ch_data = self.__create_ch_data(ch)
-                res_pl.write(ch_data)
+            async_list.append(pool.apply_async(self.get_ch_list, (file,)))
+        
+        tmp_ch_list = []
+        for i, file in enumerate(filenames_list):
+            tmp_ch_list.extend(async_list[i].get())
+        tmp2_ch_list = [i for n, i in enumerate(tmp_ch_list) if i not in tmp_ch_list[n + 1:]]
+        sort_ch_list = sorted(tmp2_ch_list, key=lambda k: k['ch_name']) 
+        for ch in sort_ch_list:
+            ch_data = self.__create_ch_data(ch)
+            res_pl.write(ch_data)
         pl_logger.info('Playlist downloader create playlist: %s' % playlist_name)

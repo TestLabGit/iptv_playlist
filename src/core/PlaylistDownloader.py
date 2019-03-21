@@ -7,7 +7,7 @@ import requests
 import sys
 sys.path.append('..')
 from src import pl_logger
-
+import validators
 
 
 class PlaylistDownloader():
@@ -24,7 +24,7 @@ class PlaylistDownloader():
         pl_logger.info("Playlist downloader started")
 
     def save_playlists(self):
-        self.__clean()
+        self.__clean("*.")
         for ctr, value in enumerate(self.playlist_array):
             try:
                 filedata = urllib.request.urlopen(value)
@@ -49,19 +49,61 @@ class PlaylistDownloader():
         self.save_playlists()
         if len(self.zip_playlist_array) > 0:
             self.save_zip_playlist()
-        with open(self.directory + "raw_playlist.m3u", 'w+', encoding='utf-8') as outfile:
+        common_file_name = self.directory + "raw_playlist.m3u"
+        with open(common_file_name, 'w+', encoding='utf-8') as outfile:
             for filename in os.listdir(self.directory):
                 with open(self.directory + filename, encoding='utf-8') as infile:
                     outfile.write(infile.read())
         self.__clean("playlist_")
+        n_raw_pl_lines = sum(1 for line in open(common_file_name, encoding='utf-8'))
+        self.__split_raw_playlist(common_file_name, n_raw_pl_lines)
         self.__clean()
+
+    def __split_raw_playlist(self, filename, lines_per_file):
+        smallfile = None
+        n_plf = 0
+        n_files = 4;
+        n_lines_per_file = int(lines_per_file / n_files)
+        with open(filename, encoding='utf-8') as bigfile:
+            line = "#"
+            line_cnt = 0
+            while line:
+                if line_cnt % (n_lines_per_file + 2) == 0:
+                    if line_cnt != 1:
+                        while line and not validators.url(line) and smallfile:
+                            smallfile.write(line)
+                            line = bigfile.readline()
+                            line_cnt += 1
+                        if line and smallfile and validators.url(line):
+                            smallfile.write(line)
+                            line = bigfile.readline()
+                            line_cnt += 1
+                    if smallfile:
+                        smallfile.close()
+                    n_plf += 1
+                    small_filename = self.directory + 'pl_chunk_{}.m3u'.format(n_plf)
+                    smallfile = open(small_filename, "w+", encoding='utf-8')
+                    if line_cnt == 0:
+                        line_cnt = 1
+                    if line == "#":
+                        line = bigfile.readline()
+                        line_cnt += 1
+                    if not line.startswith("#EXTM3U"):
+                        smallfile.write("#EXTM3U\n")
+                smallfile.write(line)
+                line = bigfile.readline()
+                line_cnt += 1
+            if smallfile:
+                smallfile.close()
 
     def __clean(self, pattern=""):
         for filename in os.listdir(self.directory):
-            if pattern != "":
+            if pattern == "*.":
+                os.unlink(self.directory + filename)
+            elif pattern != "":
                 if filename.startswith(pattern):
                     os.unlink(self.directory + filename)    
             elif filename.endswith('.m3u'):
-                if filename != "raw_playlist.m3u":
+                if not filename.startswith("pl_chunk"):
                     os.unlink(self.directory + filename)
                 
