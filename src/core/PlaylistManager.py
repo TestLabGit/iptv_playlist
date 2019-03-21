@@ -27,29 +27,33 @@ class PlaylistManager:
         
     def get_ch_list(self, filename):
         ch_list = []
-        n_lines = sum(1 for line in open(filename encoding='utf-8'))
+        n_lines = sum(1 for line in open(filename, encoding='utf-8'))
 
         with open(filename, encoding='utf-8') as fpl:  
-            line = fpl.readline()
+            line = fpl.readline().rstrip()
             line_cnt = 1
             
             if line.startswith('#EXTM3U'):
-                line = fpl.readline()
+                line = fpl.readline().rstrip()
                 line_cnt += 1
             
+            f_bad_format = True
             while line:
                 if line_cnt % 1000 == 0:
-                    print('Viewed {} lines out of {}'.format(line_cnt, n_lines)
+                    print('Viewed {} lines out of {}'.format(line_cnt, n_lines))
                 
                 if line.startswith('#EXTINF'):
                     ch_name_ix = line.rfind(',')
                     ch_name = line[ch_name_ix+1:].strip()
-
+                    
                     if not any(ch in ch_name.lower() for ch in self.ch_name_array):
-                        line = fpl.readline() 
+                        line = fpl.readline().rstrip() 
                         line_cnt += 1
+                        f_bad_format = False
                         continue
-
+                    else: 
+                        f_bad_format = True
+                    
                     params = line[0:ch_name_ix].strip()
                     params_list = re.findall(r'(?:[^\s,"]|"(?:\\.|[^"])*")+', params) # split(' ') & preserve quotes
                     params_json = dict()
@@ -59,17 +63,20 @@ class PlaylistManager:
                         tv = el.split("=")
                         params_json[tv[0]] = tv[1]
                     
-                    line = fpl.readline() 
+                    line = fpl.readline().rstrip()
                     line_cnt += 1
                     
+                    if line.startswith('#EXTINF'):
+                        continue
+                    
                     if line.startswith('#EXT'):
-                        line = fpl.readline()
+                        line = fpl.readline().rstrip()
                         line_cnt += 1
                     
                     if line and validators.url(line):
                         if self.stream_checker.is_active(line) and self.stream_checker.is_active_in_vlc(line):
-                            params_json['ch_url'] = line.rstrip()
-                            line = fpl.readline()
+                            params_json['ch_url'] = line
+                            line = fpl.readline().rstrip()
                             line_cnt += 1
     
                             params_json['ch_relative_id'] = 1;
@@ -82,10 +89,15 @@ class PlaylistManager:
                                     params_json['ch_relative_id'] += 1
                                 elif ch['ch_name'] == params_json['ch_name'] and \
                                         ch['ch_url'] == params_json['ch_url']:
-                                    ch_list.pop()   
+                                    ch_list.pop()
+                        else:
+                            line = fpl.readline().rstrip()
+                            line_cnt += 1
+                            f_bad_format = True
                 else:
-                    pl_logger.exception('{} {}, in file: {}'.format("Bad format of channel on line:", line_cnt, filename))
-                    line = fpl.readline()
+                    if f_bad_format:
+                        pl_logger.exception('{} {}, in file: {}'.format("Bad format of channel on line:", line_cnt, filename))
+                    line = fpl.readline().rstrip()
                     line_cnt += 1
             return ch_list
 
@@ -125,4 +137,4 @@ class PlaylistManager:
             for ch in sort_ch_list:
                 ch_data = self.__create_ch_data(ch)
                 res_pl.write(ch_data)
-        pl_logger.info("Playlist downloader create playlist: %s", playlist_name)
+        pl_logger.info('Playlist downloader create playlist: %s' % playlist_name)

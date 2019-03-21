@@ -25,13 +25,13 @@ class StreamChecker:
             pl_logger.exception('Check url: {} | HTTPError: {}'.format(url, e.code))
             return False
         except urllib.error.URLError as e:
-            pl_logger.exception('Check url: {} | URLError: {}'.format(url, e.code))
+            pl_logger.exception('Check url: {} | URLError: {}'.format(url, e.reason))
             return False
         except timeout:
-            pl_logger.exception('Check url: {} | Timeout'.format(url, e.code))
+            pl_logger.exception('Check url: {} | Timeout'.format(url))
             return False
         except Exception as e:
-            pl_logger.exception('Check url: {} | Undefined error'.format(url, e.code))
+            pl_logger.exception('Check url: {} | Undefined error'.format(url))
             return False
         else:
             return True

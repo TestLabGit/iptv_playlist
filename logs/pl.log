@@ -1,0 +1,286 @@
+2019-03-21 14:11:32,902 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 14:11:32,904 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 3, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,905 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 4, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,905 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 6, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,905 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 7, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,906 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 9, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,907 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 10, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,907 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 12, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,908 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 13, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,908 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 15, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,909 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 16, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,909 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 18, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,910 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 19, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,910 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 21, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,911 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 22, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,911 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 24, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,912 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 25, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,912 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 27, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:32,913 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 28, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:38,148 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:11:38,150 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 31, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:11:54,907 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:11:54,910 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 37, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:05,466 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 45, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:05,467 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 46, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:05,469 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 48, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:05,471 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 49, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:05,472 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 51, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:05,474 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 52, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,879 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:12:17,881 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 58, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,883 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 60, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,884 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 61, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,886 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 64, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,887 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 65, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,889 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 67, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,890 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 68, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,891 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 70, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,892 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 71, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,894 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 73, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,895 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 74, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,896 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 76, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,898 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 77, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,933 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 79, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:17,935 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 80, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:23,095 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:12:23,097 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 83, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:28,319 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 88, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:28,320 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 89, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:28,322 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 91, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:28,323 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 92, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:28,324 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 94, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:28,325 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 95, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:33,518 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 100, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:33,519 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 101, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,176 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 106, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,177 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 108, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,178 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 109, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,178 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 111, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,179 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 112, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,180 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 114, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,180 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 115, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,181 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 117, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,181 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 118, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,182 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 120, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,182 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 121, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,183 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 123, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:39,183 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 124, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:51,207 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 132, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:12:51,208 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 133, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:13:10,245 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 144, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:13:10,247 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 145, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:13:10,247 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 14:16:53,629 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 14:16:58,868 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:17:09,315 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:17:09,317 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 37, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:17:45,515 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:17:45,517 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 58, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:17:50,681 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:18:35,871 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 14:36:02,210 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 14:36:07,458 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:36:25,251 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:36:25,253 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 37, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:36:51,014 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:36:51,016 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 58, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:36:59,848 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:37:48,798 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 14:44:20,012 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 14:44:25,249 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:44:25,252 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 31, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:44:35,917 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:44:35,919 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 37, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:44:58,356 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:44:58,358 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 58, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:45:03,515 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:45:03,517 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 83, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:45:53,127 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 14:46:57,937 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 14:47:03,167 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:47:03,170 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 31, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:47:14,203 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:47:14,205 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 37, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:47:35,379 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:47:35,382 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 58, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:47:40,521 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:47:40,523 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 83, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:48:27,940 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 14:50:35,815 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 14:50:41,034 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:50:41,036 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 31, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:50:51,457 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:50:51,459 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 37, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:51:13,004 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:51:13,006 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 58, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:51:18,208 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:51:18,209 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 83, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:54:42,924 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 14:55:37,715 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 14:55:43,004 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:55:43,007 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 31, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:55:53,309 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:55:53,311 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 37, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:56:14,803 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:56:14,804 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 58, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:56:19,956 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:56:19,958 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 83, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 14:57:07,839 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 14:58:36,303 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 14:58:56,322 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:59:22,775 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 14:59:27,961 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:00:21,218 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 15:02:24,900 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 15:02:30,498 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:02:39,400 - pl_logger - StreamChecker - is_active - ERROR - Check url: http://ott-cdn.ucom.am/s70/04.m3u8 | Timeout
+Traceback (most recent call last):
+  File "E:\IPTV\iptv_playlist\src\core\StreamChecker.py", line 19, in is_active
+    code = urllib.request.urlopen(url, timeout=8).getcode()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Lib\urllib\request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Lib\urllib\request.py", line 1321, in do_open
+    r = h.getresponse()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2019-03-21 15:02:44,637 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:03:05,823 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:03:10,983 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:03:55,281 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 15:05:39,470 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 15:05:44,716 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:05:55,053 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:06:15,862 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:06:21,016 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:07:20,253 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 15:09:01,878 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 15:09:07,102 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:09:18,244 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:09:41,343 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:09:46,510 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:10:32,220 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 15:11:47,528 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 15:11:52,759 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:12:03,482 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:12:31,013 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:12:36,162 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:13:26,012 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 15:14:54,795 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 15:15:00,043 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:15:10,777 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:15:26,993 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 56, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 15:15:32,138 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:15:37,275 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:16:22,045 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist
+2019-03-21 15:16:55,957 - pl_logger - PlaylistManager - __init__ - INFO - Playlist manager started
+2019-03-21 15:17:01,188 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s72/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:17:11,499 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s67/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:17:37,107 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s97/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:17:42,778 - pl_logger - PlaylistManager - get_ch_list - ERROR - Bad format of channel on line: 61, in file: E:\IPTV\iptv_playlist\src\core/playlists\raw_playlist.m3u
+NoneType: None
+2019-03-21 15:17:47,916 - pl_logger - StreamChecker - is_active_in_vlc - INFO - Url check http://ott-cdn.ucom.am/s82/04.m3u8 | Stream ended. Current state = State.Ended
+2019-03-21 15:18:35,712 - pl_logger - PlaylistManager - create_list - INFO - Playlist downloader create playlist: lplaylist

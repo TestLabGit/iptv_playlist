@@ -34,7 +34,7 @@ class PlaylistDownloader():
                 with open(playlist_path, 'wb') as f:  
                     f.write(datatowrite)
             except urllib.error.HTTPError as e:
-                pl_logger.exception('Check url: {} | HTTPError reason: {}'.format(url, e.code))
+                pl_logger.exception('Check url: {} | HTTPError reason: {}'.format(value, e.code))
                 
     def save_zip_playlist(self):
         for url in self.zip_playlist_array:
