@@ -45,6 +45,4 @@ def run():
    
 
 if __name__ == '__main__':
-    #run()
-    print(1)
-    pl_logger.info("Playlist manager started")
+    run()

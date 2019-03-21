@@ -71,8 +71,6 @@ def test3():
 
 
 if __name__ == '__main__':
-    #test1()
-    #test2()
-    #test3()
-    d = [{'a': 123}, {'b': 123}, {'a': 123}]
-    print([i for n, i in enumerate(d) if i not in d[n + 1:]])
+    test1()
+    test2()
+    test3()

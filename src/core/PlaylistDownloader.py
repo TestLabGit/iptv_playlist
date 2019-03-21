@@ -10,6 +10,7 @@ from src import pl_logger
 import validators
 
 
+
 class PlaylistDownloader():
 
     def __init__(self, playlist_array, zip_playlist_array=None):
