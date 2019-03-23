@@ -4,6 +4,7 @@ import glob
 import re
 import json
 import validators
+import contextlib
 
 from .PlaylistDownloader import PlaylistDownloader
 from .StreamChecker import StreamChecker
@@ -73,6 +74,7 @@ class PlaylistManager:
                         line = fpl.readline().rstrip()
                         line_cnt += 1
                     
+        
                     if line and validators.url(line):
                         if self.stream_checker.is_active(line) and self.stream_checker.is_active_in_vlc(line):
                             params_json['ch_url'] = line

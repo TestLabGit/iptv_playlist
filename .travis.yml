@@ -17,7 +17,7 @@ jobs:
     - stage: build&deploy
       script: 
         - cd src
-        - python run.py > /dev/null 2>&1
+        - travis_wait python run.py > /dev/null 2>&1
         - bash deploy.sh
 env:
   global:

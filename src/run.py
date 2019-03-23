@@ -45,9 +45,5 @@ def run():
     print('Executing time: {}'.format(end_time - start_time))
    
 
-# for travis log limit 
-f = open(os.devnull, 'w')
-sys.stdout = f
-
 if __name__ == '__main__':
     run()
