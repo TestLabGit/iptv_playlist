@@ -1,4 +1,5 @@
 import sys
+import os
 import re
 import json
 import validators
@@ -32,6 +33,7 @@ def run():
         "ТНТ", "СТС", "НТВ", "Россия", "Первый", "Мир", "Рен ТВ", "ПЯТНИЦА", 
         "ТВЦ", "Fox", "Nat Geo", "National Geographic", "Nickelodeon", "COMEDY", 
         "Sport", "Матч",  "Viasat", "Eurosport",
+        "News", 
         "MTV", "Music", "Муз"          
     ]
     
@@ -43,6 +45,9 @@ def run():
     print('Executing time: {}'.format(end_time - start_time))
    
 
+# for travis log limit 
+f = open(os.devnull, 'w')
+sys.stdout = f
+
 if __name__ == '__main__':
     run()
-    

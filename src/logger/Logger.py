@@ -30,6 +30,7 @@ class Logger():
         if handlers != None:
             fh = logging.handlers.RotatingFileHandler(
                 filename='../logs/pl.log',
+                mode='w',
                 maxBytes=5 * 1024 * 1024,
                 backupCount=2)
             ch = logging.StreamHandler()
