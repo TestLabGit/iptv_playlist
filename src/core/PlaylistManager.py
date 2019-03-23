@@ -39,8 +39,8 @@ class PlaylistManager:
             
             f_bad_format = True
             while line:
-                if line_cnt % 1000 == 0:
-                    print('Viewed {} lines out of {}'.format(line_cnt, n_lines))
+                #if line_cnt % 1000 == 0:
+                #    print('Viewed {} lines out of {}'.format(line_cnt, n_lines))
                 
                 if line.startswith('#EXTINF'):
                     ch_name_ix = line.rfind(',')
@@ -115,7 +115,7 @@ class PlaylistManager:
             if key not in not_params_key:
                 ch_data += " " + key + "=" + value
         ch_data += ","
-        ch_data += ch_dict_info['ch_name'].rstrip() + \
+        ch_data += ch_dict_info['ch_name'] + \
                    " [IV_" + str(ch_dict_info['ch_relative_id']) + "]\n"
         ch_data += ch_dict_info['ch_url'] + "\n"
         return ch_data
@@ -128,7 +128,7 @@ class PlaylistManager:
         directory_result = dirname + "/result_playlist"
         if not os.path.isdir(directory_result):
             os.makedirs(directory_result) 
-        res_pl = open(directory_result + "/" + playlist_name + ".m3u","w+", encoding='utf-8')
+        res_pl = open(directory_result + "/" + playlist_name + ".m3u", "w+", encoding='utf-8')
         res_pl.write('#EXTM3U\n')
         
         from multiprocessing.pool import ThreadPool
@@ -142,7 +142,21 @@ class PlaylistManager:
         tmp_ch_list = []
         for i, file in enumerate(filenames_list):
             tmp_ch_list.extend(async_list[i].get())
+        
+        for ch in tmp_ch_list:
+            ch['ch_relative_id'] = 1
+        
         tmp2_ch_list = [i for n, i in enumerate(tmp_ch_list) if i not in tmp_ch_list[n + 1:]]
+        for i, ch in enumerate(tmp2_ch_list):
+            el_cnt = len(tmp2_ch_list)
+            if ch['ch_relative_id'] == 1:
+                ch_relative_id = 1
+                for j in range(i+1, el_cnt):
+                    if tmp2_ch_list[j]['ch_name'].replace(' ', "").lower() ==  ch['ch_name'].replace(' ', "").lower() and \
+                       tmp2_ch_list[j]['ch_url'] != ch['ch_url']:
+                        ch_relative_id += 1
+                        tmp2_ch_list[j]['ch_relative_id'] = ch_relative_id
+                
         sort_ch_list = sorted(tmp2_ch_list, key=lambda k: k['ch_name']) 
         for ch in sort_ch_list:
             ch_data = self.__create_ch_data(ch)

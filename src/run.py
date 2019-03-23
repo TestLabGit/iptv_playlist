@@ -11,7 +11,6 @@ from core.PlaylistDownloader import PlaylistDownloader
 from core.StreamChecker import StreamChecker
 
 
-from src import pl_logger
 
 def run():
     playlist_array = [
@@ -46,3 +45,4 @@ def run():
 
 if __name__ == '__main__':
     run()
+    
