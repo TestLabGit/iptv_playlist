@@ -14,10 +14,13 @@ jobs:
         - cd tests
         - python test.py
         - cd ..
-    - stage: build&deploy
+    - stage: build
       script: 
         - cd src
-        - travis_wait python run.py > /dev/null 2>&1
+        - travis_wait python run.py
+    - stage: deploy
+      script: 
+        - cd src
         - bash deploy.sh
 env:
   global:
