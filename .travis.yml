@@ -24,9 +24,6 @@ jobs:
         - cd src
         - "travis_wait 60 sleep 3600 &"
         - python run.py > /dev/null 2>&1
-    - stage: deploy
-      script: 
-        - cd src
         - bash deploy.sh
 env:
   global:

@@ -1,13 +1,13 @@
+import sys
 import os
 import urllib.request
+import validators
+import requests
 from io import BytesIO
 from zipfile import ZipFile
-import requests
 
-import sys
 sys.path.append('..')
 from src import pl_logger
-import validators
 
 
 
@@ -35,7 +35,8 @@ class PlaylistDownloader():
                 with open(playlist_path, 'wb') as f:  
                     f.write(datatowrite)
             except urllib.error.HTTPError as e:
-                pl_logger.exception('Check url: {} | HTTPError reason: {}'.format(value, e.code))
+                pl_logger.exception('Check url: {} | HTTPError reason: {}'
+                    .format(value, e.code))
                 
     def save_zip_playlist(self):
         for url in self.zip_playlist_array:

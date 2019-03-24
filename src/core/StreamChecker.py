@@ -1,9 +1,9 @@
+import sys
+import time
+import vlc
 import urllib.request
 from socket import timeout
-import vlc
-import time
 
-import sys
 sys.path.append('..')
 from src import pl_logger
 
@@ -54,6 +54,5 @@ class StreamChecker:
             player.stop()
             return False
         else:
-            #print('Stream is working. Current state = {}'.format(state))
             player.stop()
             return True

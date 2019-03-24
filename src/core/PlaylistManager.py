@@ -1,15 +1,15 @@
+import sys
 import os
-from shutil import *
 import glob
 import re
 import json
 import validators
 import contextlib
+from shutil import *
 
 from .PlaylistDownloader import PlaylistDownloader
 from .StreamChecker import StreamChecker
 
-import sys
 sys.path.append('..')
 from src import pl_logger
 
@@ -73,10 +73,10 @@ class PlaylistManager:
                     if line.startswith('#EXT'):
                         line = fpl.readline().rstrip()
                         line_cnt += 1
-                    
-        
+                            
                     if line and validators.url(line):
-                        if self.stream_checker.is_active(line) and self.stream_checker.is_active_in_vlc(line):
+                        if self.stream_checker.is_active(line) and \
+                           self.stream_checker.is_active_in_vlc(line):
                             params_json['ch_url'] = line
                             line = fpl.readline().rstrip()
                             line_cnt += 1
@@ -86,7 +86,8 @@ class PlaylistManager:
                             
                             # if len(ch_list) > 1:
                             for ch in ch_list[:-1].copy():
-                                if ch['ch_name'].replace(' ', "").lower() == params_json['ch_name'].replace(' ', "").lower() and \
+                                if ch['ch_name'].replace(' ', "").lower() == \
+                                   params_json['ch_name'].replace(' ', "").lower() and \
                                    ch['ch_url'] != params_json['ch_url']:
                                     params_json['ch_relative_id'] += 1
                                 elif ch['ch_name'] == params_json['ch_name'] and \
@@ -98,7 +99,8 @@ class PlaylistManager:
                             f_bad_format = True
                 else:
                     if f_bad_format:
-                        pl_logger.exception('{} {}, in file: {}'.format("Bad format of channel on line:", line_cnt, filename))
+                        pl_logger.exception('{} {}, in file: {}'
+                            .format("Bad format of channel on line:", line_cnt, filename))
                     line = fpl.readline().rstrip()
                     line_cnt += 1
             return ch_list
@@ -154,7 +156,8 @@ class PlaylistManager:
             if ch['ch_relative_id'] == 1:
                 ch_relative_id = 1
                 for j in range(i+1, el_cnt):
-                    if tmp2_ch_list[j]['ch_name'].replace(' ', "").lower() ==  ch['ch_name'].replace(' ', "").lower() and \
+                    if tmp2_ch_list[j]['ch_name'].replace(' ', "").lower() == \
+                       ch['ch_name'].replace(' ', "").lower() and \
                        tmp2_ch_list[j]['ch_url'] != ch['ch_url']:
                         ch_relative_id += 1
                         tmp2_ch_list[j]['ch_relative_id'] = ch_relative_id
