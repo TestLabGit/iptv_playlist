@@ -99,7 +99,7 @@ class PlaylistManager:
                             f_bad_format = True
                 else:
                     if f_bad_format:
-                        pl_logger.exception('{} {}, in file: {}'
+                        pl_logger.exception('{} {}, in file: {}'\
                             .format("Bad format of channel on line:", line_cnt, filename))
                     line = fpl.readline().rstrip()
                     line_cnt += 1
