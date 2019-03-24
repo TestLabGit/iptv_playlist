@@ -10,7 +10,8 @@ from .. import ROOT_DIR
 class Logger():
 
     def __init__(self, *handlers, **kwargs):
-        os.mkdir(ROOT_DIR + "/../logs")
+        if not os.path.isdir(ROOT_DIR + "/../logs"):
+            os.makedirs(ROOT_DIR + "/../logs")
         self.logger = None
         formatter = logging.Formatter(
             '%(asctime)s - %(name)s - %(module)s - '
