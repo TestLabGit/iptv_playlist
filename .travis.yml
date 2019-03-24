@@ -23,7 +23,7 @@ jobs:
        script:
          - cd src
          - travis_wait 60 sleep 3600 &
-         - python run.py > /dev/null
+         - python run.py > /dev/null 2>&1
          - bash deploy.sh
 env:
   global:
