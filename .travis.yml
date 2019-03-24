@@ -1,32 +1,32 @@
 language: python
 python:
-  - '3.6'
+- '3.6'
 branches:
   only:
-    - master
+  - master
 before_install:
-  - sudo add-apt-repository -y ppa:mc3man/trusty-media
-  - sudo apt-get update
-  - sudo apt-get -y install vlc vlc-plugin-*
-  - sudo apt-get install libtcmalloc-minimal4             # two magic line 
-  - export LD_PRELOAD="/usr/lib/libtcmalloc_minimal.so.4" # to skip python alloc error
+- sudo add-apt-repository -y ppa:mc3man/trusty-media
+- sudo apt-get update
+- sudo apt-get -y install vlc vlc-plugin-*
+- sudo apt-get install libtcmalloc-minimal4
+- export LD_PRELOAD="/usr/lib/libtcmalloc_minimal.so.4"
 install:
-  - pip install -r requirements.txt
+- pip install -r requirements.txt
 jobs:
   include:
-    - stage: test
-      script:
-        - cd tests
-        - python test.py
-        - cd ..
-    - stage: build
-      script: 
-        - cd src
-        - "travis_wait 60 sleep 3600 &"
-        - python run.py > /dev/null 2>&1
-        - bash deploy.sh
-env:
-  global:
-    secure: FCD2Icrv5Q81M17prhQoCQYtLeyIMPGMuL/flLn+TQzpJvqXWBG6yacAhAba93AGErs6r9dZlzvMq/uGi6rgMrA6kKGwUA/lG9f0cWDMS4m+wkULv+W8GTdWvZSgQnZxsde+7P5PorRMi9gtmNuETm0czGuQAMN5KOT9rAF7UD2NSQdpKfoJH/5CCQ+KBMOX5PQetbkx7HwmgF8BC7U0oTnD8QO0ImVWoRs4UNMneytBJVLo5DrCGXl7zsnbgNCDfTtDbtjtJje7wcFUzmBR69uhAgGSSn9ZZ3X5Z1AmiKN5oLIA3dAPAeyWE3X+CY3qu/Kly1NX+huZtEW9WHeQ1LmWNJFgL+sZnPd4x72XlSK6XZv560xAnB5iBr8+0amGat6cw4KOQ58QM4fK5IOPBJ3RRT7bhZp266OayjBHux3FJrmJUzZWRdt0lJhpobIUJqBAiwL43zwEWNkgWywJc3Bl2zH3fCe89e8HzyJrVG9n1k2bnVTi3ovri6xUyRvETCRFmagS+2ul10tyZ6/G694IIGNdoKi9SzAhUWZEBflLGcpR5Cc9Q+8/0lCmhBvwMsmdAg8xSOf6UuP0bLMfFLBHIIdea1Oy+zs9PQAPBr3q1NRTmoLewv8y2OFQMopZAM73/nue7j+yAcAOiWIzreaNoMyJp7mnJ4F8LcjRtqo=
+  - stage: test
+    script:
+    - cd tests
+    - python test.py
+    - cd ..
+  - stage: build
+    script:
+    - cd src
+    - travis_wait 60 sleep 3600 &
+    - python run.py > /dev/null 2>&1
+    - bash deploy.sh
 notifications:
   email: false
+env:
+  global:
+    secure: N1KJ3eAT0dqIo/HwG5lSDp/RB+2Z6+vM4kvPe7iPGQeR7U6ootIa9QEjqOPmG1EBCcFJJw8jG1JuEztM6tyMGhNBScRElj3rCCKRaawkYIDsJLCNht9Y527EgTNelT1qKb+VsaqXPCK4zETeJ5IxKWcXpvMviIu2k2lgiPJEU2FyEDqzXQQvZQb0wl8vJP1D8F1TCf+z8HuDVDgtnHvFriIgqi6UrMtTk7lKDau2ay5xfe9WoQRB0my7n7nwp3SF/Sg3OS2flIcPyd+U9+pcc26jQgsnsOEMvJyo5+BuEMCgtAmpE6HKJkMWnW1sH9Jj4DI1gOC47kYB6zZYHTYnYEKLNkwHaeHyJeOgsbCv2Zifg4eOPDUsMbaeqGzEY0zc1qMLa8Cd4A0T1W74oGa8Xa5VWm2Cx3ixYpgV/cZJbj2VqKYCio7+W08U+PCQiHO+FPG5OI/zsHGifJGe3/FE1EMnr0Z+0cBR5QEh3zgUvfLkHggR2TbmqxIDgI6Ti9kx5xg4POYotRm8IV/SvthrQk1ZsX6AWFAa6zy0CM52ahJ9RghDP06BLujXAV3puQmQhCVqtCkAlYDippfUYXBEsUDnxJYv0Mh7fZyTCO8eNGrMe+5A/GVR+IUrqSTM6wjo1PGyC5Yx1HQOyLtY/THc+0VGd2yDHIDsTKaefm4ceu8=
