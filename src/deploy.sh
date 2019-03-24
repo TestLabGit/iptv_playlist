@@ -8,16 +8,15 @@ git_config() {
 git_commit() {
   git checkout master
   dateAndMonth=`date "+%d-%m-%Y %T"` 
-#  cp core/result_playlist/*.m3u ../data
+  cp core/result_playlist/*.m3u ../data
   cd ..
-  touch CHANGELOG.md
-  git add .
+  git add data/
   git commit -m "Travis update: $dateAndMonth (Build $TRAVIS_BUILD_NUMBER)" -m "[skip ci]"
 }
 
 git_push() {
   git remote rm origin
-  git remote add origin https://${GH_TOKEN}@github.com/h4qz04/test.git > /dev/null 2>&1
+  git remote add origin https://${GH_TOKEN}@github.com/h4qz04/iptv_playlist.git > /dev/null 2>&1
   git push origin master --quiet > /dev/null 2>&1
 }
 
