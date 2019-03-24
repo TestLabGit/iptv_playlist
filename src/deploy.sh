@@ -8,7 +8,7 @@ git_config() {
 git_commit() {
   git checkout master
   dateAndMonth=`date "+%d-%m-%Y %T"` 
-  cp score/result_playlist/*.m3u ../data
+  cp core/result_playlist/*.m3u ../data
   git add .
   git commit -m "Travis update: $dateAndMonth (Build $TRAVIS_BUILD_NUMBER)" -m "[skip ci]"
 }
