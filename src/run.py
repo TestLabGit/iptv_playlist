@@ -32,7 +32,7 @@ def run():
     ch_name_array = [ 
         "ТНТ", "СТС", "НТВ", "Россия", "Первый", "Мир", "Рен ТВ", "ПЯТНИЦА", 
         "ТВЦ", "Fox", "Nat Geo", "National Geographic", "Nickelodeon", "COMEDY", 
-        "Sport", "Матч",  "Viasat", "Eurosport",
+        "Sport", "Матч", "Viasat", "Eurosport",
         "News", 
         "MTV", "Music", "Муз"          
     ]

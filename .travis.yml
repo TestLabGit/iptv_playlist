@@ -1,10 +1,15 @@
 language: python
 python:
   - '3.6'
+branches:
+  only:
+    - master
 before_install:
   - sudo add-apt-repository -y ppa:mc3man/trusty-media
   - sudo apt-get update
   - sudo apt-get -y install vlc vlc-plugin-*
+  - sudo apt-get install libtcmalloc-minimal4             # two magic line 
+  - export LD_PRELOAD="/usr/lib/libtcmalloc_minimal.so.4" # to skip python alloc error
 install:
   - pip install -r requirements.txt
 jobs:
@@ -17,7 +22,8 @@ jobs:
     - stage: build
       script: 
         - cd src
-        - travis_wait python run.py
+        - "travis_wait 60 sleep 3600 &"
+        - python run.py > /dev/null 2>&1
     - stage: deploy
       script: 
         - cd src
