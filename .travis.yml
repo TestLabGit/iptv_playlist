@@ -14,19 +14,19 @@ install:
   - pip install -r requirements.txt
 jobs:
   include:
-  - stage: test
-    script:
-      - cd tests
-      - python test.py
-      - cd ..
-  - stage: build
-    script:
-      - cd src
-      - "travis_wait 60 sleep 3600 &"
-      - python run.py > /dev/null 2>&1
-      - bash deploy.sh
-notifications:
-  email: false
+     - stage: test
+       script:
+         - cd tests
+         - python test.py
+         - cd ..
+     - stage: build
+       script:
+         - cd src
+         - travis_wait 60 sleep 3600 &
+         - python run.py > /dev/null
+         - bash deploy.sh
 env:
   global:
     secure: N1KJ3eAT0dqIo/HwG5lSDp/RB+2Z6+vM4kvPe7iPGQeR7U6ootIa9QEjqOPmG1EBCcFJJw8jG1JuEztM6tyMGhNBScRElj3rCCKRaawkYIDsJLCNht9Y527EgTNelT1qKb+VsaqXPCK4zETeJ5IxKWcXpvMviIu2k2lgiPJEU2FyEDqzXQQvZQb0wl8vJP1D8F1TCf+z8HuDVDgtnHvFriIgqi6UrMtTk7lKDau2ay5xfe9WoQRB0my7n7nwp3SF/Sg3OS2flIcPyd+U9+pcc26jQgsnsOEMvJyo5+BuEMCgtAmpE6HKJkMWnW1sH9Jj4DI1gOC47kYB6zZYHTYnYEKLNkwHaeHyJeOgsbCv2Zifg4eOPDUsMbaeqGzEY0zc1qMLa8Cd4A0T1W74oGa8Xa5VWm2Cx3ixYpgV/cZJbj2VqKYCio7+W08U+PCQiHO+FPG5OI/zsHGifJGe3/FE1EMnr0Z+0cBR5QEh3zgUvfLkHggR2TbmqxIDgI6Ti9kx5xg4POYotRm8IV/SvthrQk1ZsX6AWFAa6zy0CM52ahJ9RghDP06BLujXAV3puQmQhCVqtCkAlYDippfUYXBEsUDnxJYv0Mh7fZyTCO8eNGrMe+5A/GVR+IUrqSTM6wjo1PGyC5Yx1HQOyLtY/THc+0VGd2yDHIDsTKaefm4ceu8=
+notifications:
+  email: false
