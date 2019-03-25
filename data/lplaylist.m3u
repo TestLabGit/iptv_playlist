@@ -15,12 +15,14 @@ https://smarttvnews.ru/wp-content/uploads/2018/11/BT-2016-logo_color7890.png
 http://ott-cdn.ucom.am/s32/index.m3u8
 #EXTINF:0,Armenia Comedy ATV [IV_1]
 http://ott-cdn.ucom.am/s32/index.m3u8
-#EXTINF:-1,Euronews [IV_1]
-http://ott-cdn.ucom.am/s79/04.m3u8
 #EXTINF:-1,Eurosport 1 HD [IV_1]
 http://91.231.219.145:80/tv_eurosport_1_HD/video.m3u8
+#EXTINF:-1,Eurosport 1 HD [IV_2]
+http://kp0t.vladna.club:7003/eurosport1hd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
 #EXTINF:-1,Eurosport 2 HD [IV_1]
 http://91.231.219.145:80/tv_eurosport_2_HD/video.m3u8
+#EXTINF:-1,Eurosport 2 HD [IV_2]
+http://kp0t.vladna.club:7003/eurosport2hd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
 #EXTINF:-1,Fox HD [IV_1]
 http://91.231.219.145:80/tv_fox_HD/video.m3u8
 #EXTINF:-1,Hit Music Channel [IV_1]
@@ -33,12 +35,12 @@ http://hitmusic.hu/hitmusic.m3u8
 http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/index_3500_av-b.m3u8
 #EXTINF:-1,MTV HITS [IV_1]
 http://182.73.122.74:10005/bysid/412
+#EXTINF:-1,MTV Mix (Уфа) [IV_1]
+http://81.30.182.82:18092/hls/live.m3u8
 #EXTINF:-1,MTV Mix (Уфа) +2 [IV_1]
 http://81.30.182.82:18092/hls/live.m3u8
-#EXTINF:-1,MTV Россия [IV_1]
-http://146.120.213.6:8002/play/MTV_Russiya
-#EXTINF:0,MUSIC CHOICE [IV_1]
-http://edge.music-choice-play-chaina1.top.comcast.net/PlayMetadataInserter/play/chunklist.m3u8
+#EXTINF:-1,Motorsport HD [IV_1]
+http://kp0t.vladna.club:7003/motorsporthd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
 #EXTINF:-1,Music Box Gold [IV_1]
 http://live-musicbox.cdnvideo.ru/musicbox2/mboxtv.sdp/playlist.m3u8
 #EXTINF:-1,Music Box RU Gold [IV_1]
@@ -49,8 +51,14 @@ http://212.26.132.86/hls/mb_ua_2500.m3u8
 http://edge.music-choice-play-chaina1.top.comcast.net/PlayMetadataInserter/play/chunklist.m3u8
 #EXTINF:0,MusicBox UA [IV_1]
 http://212.26.132.86/hls/mb_ua_2500.m3u8
+#EXTINF:-1,Nat Geo Wild HD [IV_1]
+http://kp0t.vladna.club:7003/natgeowildhd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
+#EXTINF:-1,National Geographic HD [IV_1]
+http://kp0t.vladna.club:7003/natgeohd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
 #EXTINF:-1,Nickelodeon [IV_1]
 http://stream.euroasia.lfstrm.tv/nickelodeon/1/index.m3u8
+#EXTINF:-1,ON! Пятница [IV_1]
+http://sc.id-tv.kz/Tan_36_37.m3u8
 #EXTINF:-1,OTV Music [IV_1]
 http://api.tv.ipnet.ua/api/v1/manifest/1293297500.m3u8?codec=mpeg4
 #EXTINF:-1,OTV Music [IV_2]
@@ -61,16 +69,12 @@ http://212.26.146.148/hls/otv.m3u8
 http://rtmp.one.by:2200
 #EXTINF:-1,One.by Россия HD [IV_1]
 http://rtmp.one.by:2300
-#EXTINF:-1,QAZSPORT HD [IV_1]
-http://217.196.24.146:8000/play/529
 #EXTINF:0,Retro Music TV [IV_1]
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1,Retro Music TV [IV_1]
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1,Retro Music Tv [IV_2]
 http://stream.mediawork.cz/retrotv//retrotvHQ1/playlist.m3u8
-#EXTINF:-1,Retro Music Tv [IV_3]
-http://stream.mediawork.cz/retrotv//retrotvHQ1/playlist.m3u8#EXTM3U
 #EXTINF:-1,Russian Music Box [IV_1]
 http://serv25.vintera.tv:8081/test/rusmusbox/playlist.m3u8
 #EXTINF:-1,SENTANA SPORT [IV_1]
@@ -83,22 +87,42 @@ http://92.46.127.146:8080/SetantaSport/index.m3u8
 http://stream.euroasia.lfstrm.tv/setanta_sport_plus/1/index.m3u8
 #EXTINF:-1,Setanta Sport Plus HD [IV_1]
 http://92.46.127.146:8080/SetantaSportPlus/index.m3u8
-#EXTINF:-1,VIP Comedy HD [IV_1]
-https://live-hls-viasat.cdnvideo.ru/viasat/Comedy_HD.smil/df53c5c4a89c886451700863e53d2148--viasat--Comedy_HD_480--chunklist.m3u8
+#EXTINF:-1,Setanta Sports HD [IV_1]
+http://kp0t.vladna.club:7003/setantahd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
+#EXTINF:-1,ViP Comedy [IV_1]
+http://kp0t.vladna.club:7003/comedyhd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
+#EXTINF:-1,ViP Comedy HD [IV_1]
+https://live-hls-viasat.cdnvideo.ru/viasat/Comedy_HD.smil/df53c5c4a89c886451700863e53d2148--viasat--Comedy_HD_1080--chunklist.m3u8
 #EXTINF:-1,Viasat Explore [IV_1]
 http://stream.euroasia.lfstrm.tv/viasat_explore/1/index.m3u8
+#EXTINF:-1,Viasat Explore HD [IV_1]
+https://live-hls-viasat.cdnvideo.ru/viasat/Explore_HD.smil/4d5d462a064136189d2ff142078aacf7--viasat--Explore_HD_1080--chunklist.m3u8
+#EXTINF:0,Viasat Explorer [IV_1]
+http://ott-cdn.ucom.am/s72/index.m3u8
 #EXTINF:0,Viasat History [IV_1]
 http://ott-cdn.ucom.am/s70/index.m3u8
 #EXTINF:-1,Viasat History [IV_2]
 http://stream.euroasia.lfstrm.tv/viasat_history/1/index.m3u8
 #EXTINF:-1,Viasat History [IV_3]
 http://ott-cdn.ucom.am/s70/04.m3u8
+#EXTINF:-1,Viasat History HD [IV_1]
+https://live-hls-viasat.cdnvideo.ru/viasat/History_HD.smil/c36f6f52f41185d448a3ac537f98f976--viasat--History_HD_1080--chunklist.m3u8
 #EXTINF:-1,Viasat Nature [IV_1]
+http://ott-cdn.ucom.am/s67/04.m3u8
+#EXTINF:0,Viasat Nature [IV_2]
+http://ott-cdn.ucom.am/s67/index.m3u8
+#EXTINF:-1,Viasat Nature [IV_3]
 http://stream.euroasia.lfstrm.tv/viasat_nature/1/index.m3u8
+#EXTINF:-1,Viasat Nature HD [IV_1]
+https://live-hls-viasat.cdnvideo.ru/viasat/Nature_SD.smil/19a58288ef55d67b9c5f33c5089e07d1--viasat--Nature_SD_1080--chunklist.m3u8
+#EXTINF:-1,Viasat Nature/History HD [IV_1]
+https://live-hls-viasat.cdnvideo.ru/viasat/Nature_HD.smil/555a070229293a7b067fee6ffde9bfb6--viasat--Nature_HD_1080--chunklist.m3u8
 #EXTINF:-1,Viasat Sport [IV_1]
 http://stream.euroasia.lfstrm.tv/viasat_sport/1/index.m3u8
 #EXTINF:-1,Viasat Sport HD [IV_1]
 http://91.231.219.145:80/tv_viasat_sport_HD/video.m3u8
+#EXTINF:-1,Viasat Sport HD [IV_2]
+http://kp0t.vladna.club:7003/viasporthd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
 #EXTINF:-1,Астрахань.Ru Sport [IV_1]
 http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v5a1/index.m3u8
 #EXTINF:-1,Астрахань.Ru Sport HD [IV_1]
@@ -120,6 +144,8 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/chunklist.m3u8
 #EXTINF:-1,Мир [IV_1]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/chunklist.m3u8
 #EXTINF:-1,Мир [IV_2]
+http://ott-cdn.ucom.am/s39/index.m3u8
+#EXTINF:-1,Мир [IV_3]
 http://109.70.184.20:8080/udp/239.195.32.13:1234
 #EXTINF:-1,Мир (HD) [IV_1]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
@@ -199,6 +225,8 @@ http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 http://ott-cdn.ucom.am/s50/04.m3u8
 #EXTINF:-1,ПЯТНИЦА! (HD) [IV_1]
 https://vs309.vcdn.biz/5b39f9d7689deb889ec1ee82c2c05328_megogo/vod/fs/o/16283521/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/playlist.m3u8
+#EXTINF:-1,Первый Городской (Казань) [IV_1]
+http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/kzn.sdp/playlist.m3u8
 #EXTINF:-1,Первый Городской (Калининград) [IV_1]
 http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/klg.sdp/playlist.m3u8
 #EXTINF:-1,Первый Городской (Киров) [IV_1]
@@ -249,15 +277,19 @@ http://176.101.224.21:8080/udp/239.195.32.1:1234
 http://sc.id-tv.kz/1KanalEvraziya_38_39.m3u8
 #EXTINF:-1,Первый канал (+) [IV_1]
 http://ott-cdn.ucom.am/s14/index.m3u8
+#EXTINF:-1,Первый канал HD [IV_2]
+http://kp0t.vladna.club:7003/perviihd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
 #EXTINF:-1,Первый канал Евразия [IV_1]
 http://sc.id-tv.kz/1KanalEvraziya_36_37.m3u8
-#EXTINF:-1,Первый крымский HD [IV_1]
-http://vid.techbee.pro:8080/1tvcrimea/index.m3u8
 #EXTINF:-1,Пятница [IV_2]
 http://46.32.64.42/s/live/14/86.169.51.136/1/0.m3u8
 #EXTINF:-1,Пятница [IV_3]
 http://ott-cdn.ucom.am/s50/index.m3u8
+#EXTINF:-1,Пятница [IV_4]
+http://kp0t.vladna.club:7003/5nica/playlist.m3u8?token=RZ0F2dPt6FCRQgio
 #EXTINF:-1,Пятница HD [IV_1]
+http://kp0t.vladna.club:7003/5nicahd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
+#EXTINF:-1,Пятница HD [IV_2]
 https://vs309.vcdn.biz/5b39f9d7689deb889ec1ee82c2c05328_megogo/vod/fs/o/16283521/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/playlist.m3u8
 #EXTINF:0,Пятница! [IV_1]
 http://176.101.224.21:8080/udp/239.195.32.32:1234
@@ -273,22 +305,24 @@ http://stream.euroasia.lfstrm.tv/rtr_planeta/1/index.m3u8
 http://rtmp.radiogroup.com.ua:8080/live/pt/index.m3u8
 #EXTINF:0,Рен ТВ [IV_1]
 http://176.101.224.21:8080/udp/239.195.32.18:1234
-#EXTINF:0,Рен ТВ [IV_2]
-http://ott-cdn.ucom.am/s85/index.m3u8
-#EXTINF:-1,Рен ТВ [IV_3]
+#EXTINF:-1,Рен ТВ [IV_2]
+http://ott-cdn.ucom.am/s85/04.m3u8
+#EXTINF:0,Рен ТВ [IV_3]
 http://ott-cdn.ucom.am/s85/index.m3u8
 #EXTINF:-1,Рен ТВ [IV_4]
-http://ott-cdn.ucom.am/s85/04.m3u8
-#EXTINF:-1,Рен ТВ [IV_5]
-http://109.70.184.20:8080/udp/239.195.32.18:1234
+http://ott-cdn.ucom.am/s85/index.m3u8
 #EXTINF:-1,Рен ТВ [IV_6]
-http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/playlist.m3u8
+http://109.70.184.20:8080/udp/239.195.32.18:1234
 #EXTINF:-1,Рен ТВ [IV_7]
+http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/playlist.m3u8
+#EXTINF:-1,Рен ТВ [IV_8]
 http://vs307.vcdn.biz/92c2e9e83f8207d93ac98c3b2e8a1804_megogo/vod/fs/o/41139141/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-b2490000.m3u8
 #EXTINF:-1,Рен ТВ International [IV_1]
 http://sc.id-tv.kz/RenTV_36_37.m3u8
 #EXTINF:-1,Рен ТВ International [IV_2]
 http://sc.id-tv.kz/RenTV_38_39.m3u8
+#EXTINF:-1,Рен тв [IV_5]
+http://kp0t.vladna.club:7003/rentv/playlist.m3u8?token=RZ0F2dPt6FCRQgio
 #EXTINF:-1,Россия 1 [IV_1]
 http://79.135.71.195:7778
 #EXTINF:-1,Россия 1 [IV_2]
@@ -297,6 +331,8 @@ http://109.70.184.20:8080/udp/239.195.32.2:1234
 http://176.101.224.21:8080/udp/239.195.32.2:1234
 #EXTINF:-1,Россия 1 (Вайнах) [IV_1]
 http://hls-mycdn01792630458.cdnvideo.ru/mycdn01792630458/chechnyatoday/playlist.m3u8
+#EXTINF:-1,Россия 1 (Ингушетия) [IV_1]
+http://live-gtrkingushetia.cdnvideo.ru/gtrkingushetia/gtrkingushetia.sdp/playlist.m3u8
 #EXTINF:-1,Россия 1 (Калининград) [IV_1]
 http://live-vestikaliningrad.cdnvideo.ru/vestikaliningrad/vestikaliningrad.sdp/playlist.m3u8
 #EXTINF:-1,Россия 1 (Сочи) [IV_1]
@@ -304,6 +340,8 @@ http://sochi.camera:8080/cam_255/index.m3u8?token=null
 #EXTINF:-1,Россия 1 (Чувашия) [IV_1]
 http://www.chgtrk.ru/pl/stream/hls/R1_720p/index.m3u8
 #EXTINF:-1,Россия 1 HD [IV_1]
+http://kp0t.vladna.club:7003/rossia1hd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
+#EXTINF:-1,Россия 1 HD [IV_2]
 http://meta.vcdn.biz/30560520b9dacb6e03aae2bc57bd8d78_megogo/vod/fs/o/41139221/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-b4000000.m3u8
 #EXTINF:-1,Россия 24 [IV_1]
 http://ott-cdn.ucom.am/s21/index.m3u8
@@ -344,8 +382,10 @@ http://46.32.64.42/s/live/8/86.169.51.136/1/0.m3u8
 #EXTINF:-1,СТС [IV_3]
 http://ott-cdn.ucom.am/s52/index.m3u8
 #EXTINF:-1,СТС [IV_4]
-http://109.70.184.20:8080/udp/239.195.32.8:1234
+http://kp0t.vladna.club:7003/sts/playlist.m3u8?token=RZ0F2dPt6FCRQgio
 #EXTINF:-1,СТС [IV_5]
+http://109.70.184.20:8080/udp/239.195.32.8:1234
+#EXTINF:-1,СТС [IV_6]
 http://vs307.vcdn.biz/f6681bf4f562aec018b39c4bf3316dc6_megogo/vod/fs/o/40256721/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-b2490000.m3u8
 #EXTINF:-1,СТС [IV_1]
 http://176.101.224.21:8080/udp/239.195.32.8:1234
@@ -381,8 +421,12 @@ http://77.233.16.238:8081
 http://109.70.184.20:8080/udp/239.195.32.11:1234
 #EXTINF:-1,ТНТ [IV_5]
 http://meta.vcdn.biz/1ff4118dc0fefcbd3ce5ae5fdf2fc482_megogo/vod/fs/o/40500701/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-b2490000.m3u8
+#EXTINF:-1,ТНТ 4 [IV_3]
+http://kp0t.vladna.club:7003/tnt4/playlist.m3u8?token=RZ0F2dPt6FCRQgio
 #EXTINF:-1,ТНТ HD [IV_1]
 http://91.231.219.145:80/tv_tnt_HD/video.m3u8
+#EXTINF:-1,ТНТ HD [IV_2]
+http://kp0t.vladna.club:7003/tnthd/playlist.m3u8?token=RZ0F2dPt6FCRQgio
 #EXTINF:-1,ТНТ4 [IV_1]
 http://ott-cdn.ucom.am/s100/04.m3u8
 #EXTINF:-1,ТНТ4 [IV_2]
