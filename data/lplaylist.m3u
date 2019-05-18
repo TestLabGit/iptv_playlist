@@ -1,0 +1,161 @@
+#EXTM3U
+#EXTINF:0,1 Music Channel [IV_1]
+http://stream.1music.hu/stream/1music.m3u8
+#EXTINF:-1,=== Обсуждение: smarttvnews.ru === [IV_1]
+https://smarttvnews.ru/wp-content/uploads/2018/11/BT-2016-logo_color7890.png
+#EXTINF:-1,Armenia Comedy [IV_1]
+http://ott-cdn.ucom.am/s32/index.m3u8
+#EXTINF:0,Armenia Comedy ATV [IV_1]
+http://ott-cdn.ucom.am/s32/index.m3u8
+#EXTINF:-1,Eurosport 1 HD [IV_1]
+http://91.231.219.145:80/tv_eurosport_1_HD/video.m3u8
+#EXTINF:-1,Eurosport 2 HD [IV_1]
+http://91.231.219.145:80/tv_eurosport_2_HD/video.m3u8
+#EXTINF:-1,Fox HD [IV_1]
+http://91.231.219.145:80/tv_fox_HD/video.m3u8
+#EXTINF:-1,Hit Music Channel [IV_1]
+http://hitmusic.hu/hitmusic.m3u8
+#EXTINF:-1,MTV HD [IV_1]
+http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/index_3500_av-b.m3u8
+#EXTINF:-1,MTV HITS [IV_1]
+http://182.73.122.74:10005/bysid/412
+#EXTINF:-1,Music Box Gold [IV_1]
+http://live-musicbox.cdnvideo.ru/musicbox2/mboxtv.sdp/playlist.m3u8
+#EXTINF:-1,Music Box RU Gold [IV_1]
+http://live-musicbox.cdnvideo.ru/musicbox2/mboxtv.sdp/playlist.m3u8
+#EXTINF:-1,Music Choice [IV_1]
+http://edge.music-choice-play-chaina1.top.comcast.net/PlayMetadataInserter/play/chunklist.m3u8
+#EXTINF:-1,MusicBox UA [IV_1]
+http://212.26.132.86/hls/mb_ua_2500.m3u8
+#EXTINF:-1,ON! Пятница [IV_1]
+http://sc.id-tv.kz/Tan_36_37.m3u8
+#EXTINF:-1,One.by Россия [IV_1]
+http://rtmp.one.by:2200
+#EXTINF:-1,One.by Россия HD [IV_1]
+http://rtmp.one.by:2300
+#EXTINF:-1,QAZSPORT HD [IV_1]
+http://217.196.24.146:8000/play/529
+#EXTINF:-1,Retro Music Tv [IV_1]
+http://stream.mediawork.cz/retrotv//retrotvHQ1/playlist.m3u8
+#EXTINF:-1,Russian Music Box (Яндекс ТВ) [IV_1]
+https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8?vsid=0
+#EXTINF:-1,Russian MusicBox [IV_1]
+http://serv25.vintera.tv:8081/test/rusmusbox/playlist.m3u8
+#EXTINF:0,Setanta Sport [IV_1]
+http://ott-cdn.ucom.am/s81/index.m3u8
+#EXTINF:-1,Setanta Sport HD [IV_1]
+http://92.46.127.146:8080/SetantaSport/index.m3u8
+#EXTINF:-1,Setanta Sport Plus [IV_1]
+http://ott-cdn.ucom.am/s82/index.m3u8
+#EXTINF:-1,Setanta Sport Plus HD [IV_1]
+http://92.46.127.146:8080/SetantaSportPlus/index.m3u8
+#EXTINF:-1,Viasat Explorer [IV_1]
+http://ott-cdn.ucom.am/s72/index.m3u8
+#EXTINF:-1,Viasat History [IV_1]
+http://ott-cdn.ucom.am/s70/index.m3u8
+#EXTINF:-1,Viasat Nature [IV_1]
+http://ott-cdn.ucom.am/s67/index.m3u8
+#EXTINF:-1,Viasat Sport HD [IV_1]
+http://91.231.219.145:80/tv_viasat_sport_HD/video.m3u8
+#EXTINF:-1,Астрахань.Ru Sport [IV_1]
+http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v5a1/index.m3u8
+#EXTINF:-1,БелМуз ТВ [IV_1]
+http://streams.tv.mts.by/belmustv/1/index.m3u8
+#EXTINF:-1,МИР 24 (Яндекс ТВ) [IV_1]
+https://strm.yandex.ru/kal/mir24_supres/mir24_supres0.m3u8?vsid=0
+#EXTINF:-1,МИР HD (Premium) [IV_1]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
+#EXTINF:0,МИР Premium [IV_1]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
+#EXTINF:-1,Мир [IV_1]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/chunklist.m3u8
+#EXTINF:-1,Мир [IV_2]
+http://ott-cdn.ucom.am/s39/index.m3u8
+#EXTINF:0,Мир [IV_1]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/chunklist.m3u8
+#EXTINF:0,Мир 24 HD [IV_1]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:-1,Мир HD [IV_1]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+#EXTINF:-1,Мир international [IV_1]
+http://sc.id-tv.kz/Mir.m3u8
+#EXTINF:-1,Муз ТВ [IV_1]
+http://ott-cdn.ucom.am/s28/index.m3u8
+#EXTINF:-1,МузСоюз [IV_1]
+http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8
+#EXTINF:-1,НТВ HD [IV_1]
+http://91.231.219.145:80/tv_ntv_HD/video.m3u8
+#EXTINF:-1,НТВ Moldova [IV_1]
+http://93.115.137.166/hls/ntvm.m3u8
+#EXTINF:-1,НТВ мир [IV_1]
+http://ott-cdn.ucom.am/s17/index.m3u8
+#EXTINF:-1,НТВ право [IV_1]
+http://88.216.48.14:80/ntvpravo/live.m3u8
+#EXTINF:-1,НТВ сериал [IV_1]
+http://88.216.48.14:80/ntvserial/live.m3u8
+#EXTINF:-1,НТВ стиль [IV_1]
+http://88.216.48.14:80/ntvstyle/live.m3u8
+#EXTINF:-1,Новороссия ТВ [IV_1]
+http://dprtv.phoenix-dnr.ru/novorossia-tv
+#EXTINF:-1,Новый Мир [IV_1]
+http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
+#EXTINF:-1,Новый мир [IV_1]
+http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
+#EXTINF:-1,ПЯТНИЦА! (HD) [IV_1]
+https://vs309.vcdn.biz/5b39f9d7689deb889ec1ee82c2c05328_megogo/vod/fs/o/16283521/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/playlist.m3u8
+#EXTINF:-1,Первый Городской (Нижний Новгород) [IV_1]
+http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/nn.sdp/playlist.m3u8
+#EXTINF:-1,Первый Канал [IV_2]
+http://79.135.71.195:7777
+#EXTINF:-1,Первый Канал HD [IV_1]
+http://91.231.219.145:80/tv_perviy_kanal_HD/video.m3u8
+#EXTINF:-1,Первый городской (Киров) [IV_1]
+http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/1kirov.sdp/playlist.m3u8
+#EXTINF:-1,Первый городской Киров [IV_1]
+http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/1kirov.sdp/playlist.m3u8
+#EXTINF:-1,Первый канал [IV_1]
+http://46.32.64.42/s/live/1/86.169.51.136/1/0.m3u8
+#EXTINF:-1,Первый канал (+) [IV_1]
+http://ott-cdn.ucom.am/s14/index.m3u8
+#EXTINF:-1,Первый канал Евразия [IV_1]
+http://sc.id-tv.kz/1KanalEvraziya_36_37.m3u8
+#EXTINF:-1,Пятница [IV_1]
+http://46.32.64.42/s/live/14/86.169.51.136/1/0.m3u8
+#EXTINF:-1,Пятница [IV_2]
+http://ott-cdn.ucom.am/s50/index.m3u8
+#EXTINF:-1,РORTAL FOXMIX TV [IV_1]
+http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.m3u8
+#EXTINF:-1,Рен ТВ [IV_1]
+http://ott-cdn.ucom.am/s85/index.m3u8
+#EXTINF:-1,Рен ТВ International [IV_1]
+http://sc.id-tv.kz/RenTV_36_37.m3u8
+#EXTINF:-1,Россия 1 [IV_1]
+http://79.135.71.195:7778
+#EXTINF:-1,Россия 24 [IV_1]
+http://ott-cdn.ucom.am/s21/index.m3u8
+#EXTINF:-1,Россия К [IV_1]
+http://ott-cdn.ucom.am/s16/index.m3u8
+#EXTINF:-1,Россия РТР [IV_1]
+http://ott-cdn.ucom.am/s15/index.m3u8
+#EXTINF:-1,Россия РТР [IV_2]
+http://a3569455780-s26881.cdn.ngenix.net/live/smil:rtrp.smil/chunklist_b1600000.m3u8
+#EXTINF:-1,СТС [IV_1]
+http://46.32.64.42/s/live/8/86.169.51.136/1/0.m3u8
+#EXTINF:-1,СТС [IV_2]
+http://ott-cdn.ucom.am/s52/index.m3u8
+#EXTINF:-1,СТС International [IV_1]
+http://sc.id-tv.kz/STS_36_37.m3u8
+#EXTINF:-1,ТВЦ [IV_1]
+http://tvc-hls.cdnvideo.ru/tvc-p222/smil:tvc_p11.smil/playlist.m3u8
+#EXTINF:-1,ТВЦ [IV_2]
+http://ott-cdn.ucom.am/s54/index.m3u8
+#EXTINF:-1,ТВЦ Красноярск [IV_1]
+http://www.tck.tv/hls_hd/hd.m3u8
+#EXTINF:-1,ТНТ [IV_1]
+http://46.32.64.42/s/live/7/86.169.51.136/1/0.m3u8
+#EXTINF:-1,ТНТ [IV_2]
+http://ott-cdn.ucom.am/s19/index.m3u8
+#EXTINF:-1,ТНТ HD [IV_1]
+http://91.231.219.145:80/tv_tnt_HD/video.m3u8
+#EXTINF:-1,ТНТ4 [IV_1]
+http://ott-cdn.ucom.am/s100/index.m3u8
