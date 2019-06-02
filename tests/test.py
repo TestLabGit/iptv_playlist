@@ -11,7 +11,6 @@ import vlc
 import time
 
 
-
 def test1():
     playlist_array = [
         #'https://webhalpme.ru/iptvforever.m3u',
@@ -64,8 +63,8 @@ def test2():
 
 def test3():
     sc = StreamChecker()
-    assert sc.is_active('http://stream.mediawork.cz/retrotv//retrotvHQ1/playlist.m3u8﻿#EXTM3U') == False
-    assert sc.is_active('http://ott-cdn.ucom.am/s51/04.m3u8') == True
+    assert sc.is_active('http://stream.mediawork.cz/retrotv//retrotvHQ1/playlist.m3u8﻿#EXTM3U') is False
+    assert sc.is_active('http://ott-cdn.ucom.am/s51/04.m3u8') is True
     print(sc.is_active_in_vlc('http://ott-cdn.ucom.am/s51/04.m3u8'))
     print(sc.is_active_in_vlc('http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8\n'))
 

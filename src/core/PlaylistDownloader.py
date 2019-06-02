@@ -10,17 +10,16 @@ sys.path.append('..')
 from src import pl_logger
 
 
-
 class PlaylistDownloader():
 
     def __init__(self, playlist_array, zip_playlist_array=None):
         dirname = os.path.dirname(__file__)
         self.directory = dirname + "/playlists/"
         if not os.path.isdir(self.directory):
-            os.makedirs(self.directory) 
+            os.makedirs(self.directory)
         self.playlist_array = playlist_array
         self.zip_playlist_array = []
-        if zip_playlist_array != None:
+        if zip_playlist_array is not None:
             self.zip_playlist_array = zip_playlist_array
         pl_logger.info("Playlist downloader started")
 
@@ -31,13 +30,13 @@ class PlaylistDownloader():
                 filedata = urllib.request.urlopen(value)
                 datatowrite = filedata.read()
                 filename = "playlist_" + str(ctr+1) + ".m3u"
-                playlist_path = self.directory + filename  
-                with open(playlist_path, 'wb') as f:  
+                playlist_path = self.directory + filename
+                with open(playlist_path, 'wb') as f:
                     f.write(datatowrite)
             except urllib.error.HTTPError as e:
                 pl_logger.exception('Check url: {} | HTTPError reason: {}'\
-                    .format(value, e.code))
-                
+                                    .format(value, e.code))
+
     def save_zip_playlist(self):
         for url in self.zip_playlist_array:
             response = requests.get(url)
@@ -64,7 +63,7 @@ class PlaylistDownloader():
     def __split_raw_playlist(self, filename, lines_per_file):
         smallfile = None
         n_plf = 0
-        n_files = 4;
+        n_files = 4
         n_lines_per_file = int(lines_per_file / n_files)
         with open(filename, encoding='utf-8') as bigfile:
             line = "#"
@@ -108,4 +107,3 @@ class PlaylistDownloader():
             elif filename.endswith('.m3u'):
                 if not filename.startswith("pl_chunk"):
                     os.unlink(self.directory + filename)
-                

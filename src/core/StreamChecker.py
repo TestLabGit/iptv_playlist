@@ -8,9 +8,8 @@ sys.path.append('..')
 from src import pl_logger
 
 
-
 class StreamChecker:
-    
+
     def __init__(self):
         pass
 
@@ -38,8 +37,8 @@ class StreamChecker:
 
     def is_active_in_vlc(self, url):
         instance = vlc.Instance('--input-repeat=-1', '--fullscreen')
-        player=instance.media_player_new()
-        media=instance.media_new(url)
+        player = instance.media_player_new()
+        media = instance.media_new(url)
         player.set_media(media)
         player.play()
         time.sleep(5)

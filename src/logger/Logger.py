@@ -7,6 +7,7 @@ import sys
 sys.path.append('..')
 from .. import ROOT_DIR
 
+
 class Logger():
 
     def __init__(self, *handlers, **kwargs):
@@ -16,7 +17,7 @@ class Logger():
         formatter = logging.Formatter(
             '%(asctime)s - %(name)s - %(module)s - '
             '%(funcName)s - %(levelname)s - %(message)s')
-    
+
         if 'logger_name' in kwargs and \
                 kwargs['logger_name'] is not None:
             self.logger = logging.getLogger(kwargs['logger_name'])
@@ -29,7 +30,7 @@ class Logger():
         else:
             self.logger.setLevel(logging.DEBUG)
 
-        if handlers != None:
+        if handlers is not None:
             fh = logging.handlers.RotatingFileHandler(
                 filename='../logs/pl.log',
                 mode='w',

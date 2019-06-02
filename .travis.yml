@@ -1,6 +1,6 @@
 language: python
 python:
-- '3.6'
+  - '3.6'
 branches:
   only:
     - master
@@ -14,17 +14,17 @@ install:
   - pip install -r requirements.txt
 jobs:
   include:
-     - stage: test
-       script:
-         - cd tests
-         - python test.py
-         - cd ..
-     - stage: build
-       script:
-         - cd src
-         - "travis_wait 60 sleep 3600 &"
-         - python run.py > /dev/null 2>&1
-         - bash deploy.sh
+    - stage: test
+      script:
+        - cd tests
+        - python test.py
+        - cd ..
+    - stage: build
+      script:
+        - cd src
+        - "travis_wait 60 sleep 3600 &"
+        - python run.py > /dev/null 2>&1
+        - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash deploy.sh; fi'
 notifications:
   email: false
 env:

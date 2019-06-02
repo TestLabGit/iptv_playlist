@@ -8,6 +8,7 @@ git_config() {
 git_commit() {
   git checkout master
   dateAndMonth=`date "+%d-%m-%Y %T"` 
+  mv ../data/lplaylist.m3u ../data/lplaylist_prev.m3u
   cp core/result_playlist/*.m3u ../data
   cd ..
   git add data/
@@ -21,7 +22,11 @@ git_push() {
 }
 
 git_config
-git_commit
+if [ `wc -l core/result_playlist/lplaylist.m3u | awk '{print $1}'` -ge "10" ]; then
+  git_commit
+else
+  false
+fi
 
 if [ $? -eq 0 ]; then
   echo "New commit with changed files exists. Uploading to GitHub"
