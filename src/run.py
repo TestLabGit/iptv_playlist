@@ -14,6 +14,7 @@ from core.StreamChecker import StreamChecker
 
 def run():
     playlist_array = [
+        'https://webhalpme.ru/if.m3u',
         'https://webhalpme.ru/iptvforever.m3u',
         'https://webhalpme.ru/ruiptvforever.m3u',
         'https://smarttvnews.ru/apps/iptvchannels.m3u',
@@ -31,7 +32,7 @@ def run():
     ch_name_array = [ 
         "ТНТ", "СТС", "НТВ", "Россия", "Первый", "Мир", "Рен ТВ", "ПЯТНИЦА", 
         "ТВЦ", "Fox", "Nat Geo", "National Geographic", "Nickelodeon", "COMEDY", 
-        "Sport", "Матч", "Viasat", "Eurosport",
+        "Sport", "Матч", "Футбол", "Спорт", "Viasat", "Eurosport",
         "News", 
         "MTV", "Music", "Муз"          
     ]
