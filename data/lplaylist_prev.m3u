@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:0,1 Music Channel [IV_1]
 http://stream.1music.hu/stream/1music.m3u8
-#EXTINF:-1,1 Music Channel [IV_1]
-http://stream.1music.hu/stream/1music.m3u8
 #EXTINF:-1,1HD Music TV [IV_1]
 http://1hdru-hls.cdnvideo.ru/1hdmusic/tracks-v2a1/mono.m3u8
 #EXTINF:-1,1Music Channel Hungary [IV_1]
@@ -24,8 +22,6 @@ http://77.245.98.22:8000/play/307/index.m3u8
 #EXTINF:-1,Fox HD [IV_1]
 http://91.231.219.145:80/tv_fox_HD/video.m3u8
 #EXTINF:-1,Hit Music Channel [IV_1]
-http://1mstream.digicable.hu/hitmusic/hitmusic.m3u8
-#EXTINF:-1,Hit Music Channel [IV_2]
 http://hitmusic.hu/hitmusic.m3u8
 #EXTINF:-1,Hit Music Channel (Hungary) [IV_1]
 http://hitmusic.hu/hitmusic.m3u8
@@ -49,8 +45,6 @@ http://212.26.132.86/hls/mb_ua_2500.m3u8
 http://185.220.35.228:8000/play/a06e/index.m3u8?token=tokenforall
 #EXTINF:-1,ON! Пятница [IV_1]
 http://sc.id-tv.kz/Tan_36_37.m3u8
-#EXTINF:-1,OTV Music [IV_1]
-http://api.tv.ipnet.ua/api/v1/manifest/1293297500.m3u8?codec=mpeg4
 #EXTINF:-1,OTV Music (Украина) [IV_1]
 http://212.26.146.148/hls/otv.m3u8
 #EXTINF:-1,One.by Россия [IV_1]
@@ -69,13 +63,7 @@ http://serv25.vintera.tv:8081/test/rusmusbox/playlist.m3u8
 https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8?vsid=0
 #EXTINF:-1,Russian MusicBox [IV_1]
 http://serv25.vintera.tv:8081/test/rusmusbox/playlist.m3u8
-#EXTINF:-1,SENTANA SPORT [IV_1]
-http://ott-cdn.ucom.am/s81/04.m3u8
-#EXTINF:-1,SENTANA SPORT+ [IV_1]
-http://ott-cdn.ucom.am/s82/04.m3u8
 #EXTINF:0,Setanta Sport [IV_1]
-http://ott-cdn.ucom.am/s81/index.m3u8
-#EXTINF:-1,Setanta Sport [IV_1]
 http://ott-cdn.ucom.am/s81/index.m3u8
 #EXTINF:-1,Setanta Sport HD [IV_1]
 http://92.46.127.146:8080/SetantaSport/index.m3u8
@@ -83,23 +71,15 @@ http://92.46.127.146:8080/SetantaSport/index.m3u8
 http://ott-cdn.ucom.am/s82/index.m3u8
 #EXTINF:-1,Setanta Sport Plus HD [IV_1]
 http://92.46.127.146:8080/SetantaSportPlus/index.m3u8
-#EXTINF:-1,VIP COMEDY [IV_1]
-http://ott-cdn.ucom.am/s97/04.m3u8
 #EXTINF:-1,ViP Comedy HD [IV_1]
 http://185.220.35.228:8002/play/vipcomedy/index.m3u8?token=tokenforall
-#EXTINF:-1,Viasat Explore [IV_1]
-http://ott-cdn.ucom.am/s72/04.m3u8
 #EXTINF:-1,Viasat Explorer [IV_1]
 http://ott-cdn.ucom.am/s72/index.m3u8
 #EXTINF:-1,Viasat History [IV_1]
-http://ott-cdn.ucom.am/s70/04.m3u8
-#EXTINF:-1,Viasat History [IV_2]
 https://hls-viasat.cdnvideo.ru/hls/relay/1501746731655/index.m3u8?md5=2Dxnjzcr2UxtTABLqdfYTA&e=1541934953&hls_proxy_host=97544926393025ab05ebfb4dc3486095
-#EXTINF:-1,Viasat History [IV_3]
+#EXTINF:-1,Viasat History [IV_2]
 http://ott-cdn.ucom.am/s70/index.m3u8
 #EXTINF:-1,Viasat Nature [IV_1]
-http://ott-cdn.ucom.am/s67/04.m3u8
-#EXTINF:-1,Viasat Nature [IV_2]
 http://ott-cdn.ucom.am/s67/index.m3u8
 #EXTINF:-1,Viasat Sport HD [IV_1]
 http://91.231.219.145:80/tv_viasat_sport_HD/video.m3u8
@@ -117,8 +97,12 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 #EXTINF:0,Матч! Арена [IV_1]
 http://95.128.243.226:7780/udp/224.0.90.88:1234
+#EXTINF:0,Матч! Боец [IV_1]
+http://178.163.33.96:4022/udp/234.0.0.6:2000
 #EXTINF:0,Матч! Игра [IV_1]
 http://95.128.243.226:7780/udp/224.0.90.142:1234
+#EXTINF:0,Матч! Планета [IV_1]
+http://176.101.120.127:1234/udp/239.255.128.114:1234
 #EXTINF:-1,Мир [IV_1]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/chunklist.m3u8
 #EXTINF:-1,Мир [IV_2]
@@ -127,9 +111,9 @@ http://ott-cdn.ucom.am/s39/index.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/chunklist.m3u8
 #EXTINF:-1,Мир (HD) [IV_1]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1,Мир 24 [IV_1]
-http://sc.id-tv.kz/Mir24_38_39.m3u8
 #EXTINF:-1,Мир 24 HD [IV_1]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:0,Мир 24 HD [IV_1]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1,Мир HD [IV_1]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
@@ -169,13 +153,9 @@ http://dprtv.phoenix-dnr.ru/novorossia-tv
 http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 #EXTINF:-1,Новый мир [IV_1]
 http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
-#EXTINF:-1,ПЯТНИЦА [IV_2]
-http://ott-cdn.ucom.am/s50/04.m3u8
 #EXTINF:-1,ПЯТНИЦА! (HD) [IV_1]
 https://vs309.vcdn.biz/5b39f9d7689deb889ec1ee82c2c05328_megogo/vod/fs/o/16283521/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/playlist.m3u8
 #EXTINF:-1,Первый Балтийский Муз. [IV_1]
-https://streamer5.tvdom.tv/in/tvdom/tracks-v1a1/index.m3u8
-#EXTINF:-1,Первый Балтийский Музыка [IV_1]
 https://streamer5.tvdom.tv/in/tvdom/tracks-v1a1/index.m3u8
 #EXTINF:-1,Первый Городской (Калининград) [IV_1]
 http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/klg.sdp/playlist.m3u8
@@ -185,10 +165,6 @@ http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/1kirov.sdp/playlist.m3u8
 http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/nn.sdp/playlist.m3u8
 #EXTINF:-1,Первый Городской Калининград [IV_1]
 http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/klg.sdp/playlist.m3u8
-#EXTINF:-1,Первый Деловой [IV_1]
-http://pershij-dlovij-hls3.cosmonova.net.ua/hls/pershij-dlovij_ua_hi/index.m3u8
-#EXTINF:-1,Первый Деловой [IV_2]
-http://pershij-dlovij-hls3.cosmonova.net.ua/hls/pershij-dlovij_ua_mid/index.m3u8
 #EXTINF:-1,Первый Деловой (Украина) [IV_1]
 http://pershij-dlovij-hls3.cosmonova.net.ua/hls/pershij-dlovij_ua_hi/index.m3u8
 #EXTINF:-1,Первый Канал [IV_2]
@@ -212,8 +188,6 @@ http://46.32.64.42/s/live/1/86.169.51.136/1/0.m3u8
 #EXTINF:-1,Первый канал [IV_3]
 http://182.73.122.74:10005/bysid/414
 #EXTINF:-1,Первый канал "Евразия" [IV_1]
-http://sc.id-tv.kz/1KanalEvraziya_38_39.m3u8
-#EXTINF:-1,Первый канал "Евразия" [IV_2]
 http://stream.euroasia.lfstrm.tv/perviy_evrasia/1/index.m3u8
 #EXTINF:-1,Первый канал (+) [IV_1]
 http://ott-cdn.ucom.am/s14/index.m3u8
@@ -221,93 +195,55 @@ http://ott-cdn.ucom.am/s14/index.m3u8
 http://sc.id-tv.kz/1KanalEvraziya_36_37.m3u8
 #EXTINF:-1,Пятница [IV_1]
 http://46.32.64.42/s/live/14/86.169.51.136/1/0.m3u8
-#EXTINF:-1,Пятница [IV_3]
+#EXTINF:-1,Пятница [IV_2]
 http://ott-cdn.ucom.am/s50/index.m3u8
-#EXTINF:-1,РORTAL FOXMIX TV [IV_1]
-http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.m3u8
 #EXTINF:-1,Рен ТВ [IV_1]
-http://ott-cdn.ucom.am/s85/index.m3u8
-#EXTINF:-1,Рен ТВ [IV_2]
 http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/playlist.m3u8
+#EXTINF:-1,Рен ТВ [IV_2]
+http://ott-cdn.ucom.am/s85/index.m3u8
 #EXTINF:-1,Рен ТВ International [IV_1]
-http://sc.id-tv.kz/RenTV_38_39.m3u8
-#EXTINF:-1,Рен ТВ International [IV_2]
 http://sc.id-tv.kz/RenTV_36_37.m3u8
 #EXTINF:-1,Россия 1 [IV_1]
-http://77.233.1.12:8081
-#EXTINF:-1,Россия 1 [IV_2]
 http://79.135.71.195:7778
 #EXTINF:-1,Россия 1 (Калуга) [IV_1]
 http://a3569458063-s26881.cdn.ngenix.net/vgtrkrtmp/smil:kaluga_r1.smil/chunklist_b1200000.m3u8
-#EXTINF:-1,Россия 1 HD [IV_1]
-http://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
 #EXTINF:-1,Россия 24 [IV_1]
-http://ott-cdn.ucom.am/s21/04.m3u8
-#EXTINF:-1,Россия 24 [IV_2]
-http://a3569458063-s26881.cdn.ngenix.net/live/smil:r24.smil/chunklist_b1200000.m3u8
-#EXTINF:-1,Россия 24 [IV_3]
-http://a3569458063-s26881.cdn.ngenix.net/hls/russia_24/playlist_3.m3u8
-#EXTINF:-1,Россия 24 [IV_4]
-http://ott-cdn.ucom.am/s21/index.m3u8
-#EXTINF:-1,Россия 24 [IV_5]
 http://a3569456481-s26881.cdn.ngenix.net/live/smil:r24.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,Россия 24 [IV_2]
+http://ott-cdn.ucom.am/s21/index.m3u8
 #EXTINF:-1,Россия К [IV_1]
-http://a3569458063-s26881.cdn.ngenix.net/hls/russia_k/playlist_3.m3u8
-#EXTINF:-1,Россия К [IV_2]
-http://a3569458063-s26881.cdn.ngenix.net/live/smil:russiak.smil/chunklist_b1600000.m3u8
-#EXTINF:-1,Россия К [IV_3]
-http://ott-cdn.ucom.am/s16/index.m3u8
-#EXTINF:-1,Россия К [IV_4]
 http://a3569456481-s26881.cdn.ngenix.net/live/smil:rk.smil/chunklist_b1600000.m3u8
+#EXTINF:-1,Россия К [IV_2]
+http://ott-cdn.ucom.am/s16/index.m3u8
 #EXTINF:-1,Россия РТР [IV_1]
 http://a3569455780-s26881.cdn.ngenix.net/live/smil:rtrp.smil/chunklist_b1600000.m3u8
 #EXTINF:-1,Россия РТР [IV_2]
 http://ott-cdn.ucom.am/s15/index.m3u8
-#EXTINF:-1,Россия1 [IV_3]
+#EXTINF:-1,Россия1 [IV_2]
 http://182.73.122.74:10005/bysid/403
 #EXTINF:-1,Русский Бестселер [IV_1]
 http://182.73.122.74:10005/bysid/420
 #EXTINF:-1,СТС [IV_1]
 http://46.32.64.42/s/live/8/86.169.51.136/1/0.m3u8
 #EXTINF:-1,СТС [IV_2]
-http://vs310.vcdn.biz/f6681bf4f562aec018b39c4bf3316dc6_megogo/vod/fs/o/40256721/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-sid985762079-b2490000.m3u8
-#EXTINF:-1,СТС [IV_3]
-http://gorod.tv/s/live/8/178.141.142.2/1556188519397/0.m3u8
-#EXTINF:-1,СТС [IV_4]
 http://ott-cdn.ucom.am/s52/index.m3u8
 #EXTINF:-1,СТС International [IV_1]
 http://sc.id-tv.kz/STS_36_37.m3u8
-#EXTINF:-1,СТС International [IV_2]
-https://sc.id-tv.kz/STS_38_39.m3u8
-#EXTINF:-1,СТС International [IV_3]
-http://sc.id-tv.kz/STS_38_39.m3u8
 #EXTINF:-1,ТВЦ [IV_1]
 http://tvc-hls.cdnvideo.ru/tvc-p222/smil:tvc_p11.smil/playlist.m3u8
 #EXTINF:-1,ТВЦ [IV_2]
-http://ott-cdn.ucom.am/s54/04.m3u8
+http://tvc-hls.cdnvideo.ru/tvc-p222/smil:tvc_p11.smil/chunklist_b1703000.m3u8
 #EXTINF:-1,ТВЦ [IV_3]
 http://ott-cdn.ucom.am/s54/index.m3u8
-#EXTINF:-1,ТВЦ [IV_4]
-http://tvc-hls.cdnvideo.ru/tvc-p222/smil:tvc_p11.smil/chunklist_b1703000.m3u8
-#EXTINF:-1,ТВЦ Красноярск [IV_1]
-http://www.tck.tv/hls_hd/hd.m3u8
 #EXTINF:-1,ТНТ [IV_1]
 http://46.32.64.42/s/live/7/86.169.51.136/1/0.m3u8
 #EXTINF:-1,ТНТ [IV_2]
-http://vs350.vcdn.biz/1ff4118dc0fefcbd3ce5ae5fdf2fc482_megogo/vod/fs/o/40500701/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-sid333265525-b2490000.m3u8
-#EXTINF:-1,ТНТ [IV_3]
-http://gorod.tv/s/live/7/178.141.142.2/1556188519397/0.m3u8
-#EXTINF:-1,ТНТ [IV_4]
 http://182.73.122.74:10005/bysid/413
-#EXTINF:-1,ТНТ [IV_5]
+#EXTINF:-1,ТНТ [IV_3]
 http://ott-cdn.ucom.am/s19/index.m3u8
 #EXTINF:-1,ТНТ HD [IV_1]
 http://91.231.219.145:80/tv_tnt_HD/video.m3u8
 #EXTINF:-1,ТНТ International (Беларусь) [IV_1]
 http://streams.tv.mts.by/tnt_international/1/index.m3u8
 #EXTINF:-1,ТНТ4 [IV_1]
-http://ott-cdn.ucom.am/s100/04.m3u8
-#EXTINF:-1,ТНТ4 [IV_2]
 http://ott-cdn.ucom.am/s100/index.m3u8
-#EXTINF:-1,стс love [IV_1]
-http://ott-cdn.ucom.am/s52/04.m3u8
