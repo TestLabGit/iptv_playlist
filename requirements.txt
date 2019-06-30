@@ -3,7 +3,7 @@ chardet==3.0.4
 decorator==4.4.0
 idna==2.8
 python-vlc==3.0.6108
-requests==2.21.0
+requests==2.22.0
 six==1.12.0
 urllib3>=1.24.2
 validators==0.12.4
