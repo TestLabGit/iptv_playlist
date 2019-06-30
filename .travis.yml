@@ -5,7 +5,8 @@ branches:
   only:
     - master
 before_install:
-  - sudo add-apt-repository -y ppa:mc3man/trusty-media
+#  - sudo add-apt-repository -y ppa:mc3man/trusty-media # 14.04
+  - sudo add-apt-repository ppa:mc3man/xerus-media # 16.04
   - sudo apt-get update
   - sudo apt-get -y install vlc vlc-plugin-*
   - sudo apt-get install libtcmalloc-minimal4             # magic two lines
