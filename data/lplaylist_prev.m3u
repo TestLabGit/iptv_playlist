@@ -31,21 +31,15 @@ http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/144/index.m3u8
 http://ott-cdn.ucom.am/s79/04.m3u8
 #EXTINF:-1,Eurosport 1 [IV_1]
 http://hls-v3-spbtv.msk.spbtv.com/for_spb/msk/ipv3/178.m3u8
-#EXTINF:-1,Eurosport 1 HD [IV_2]
-http://91.231.219.145:80/tv_eurosport_1_HD/video.m3u8
 #EXTINF:-1,Eurosport 2 [IV_1]
 http://hls-v3-spbtv.msk.spbtv.com/for_spb/msk/ipv3/143.m3u8
-#EXTINF:-1,Eurosport 2 HD [IV_1]
-http://91.231.219.145:80/tv_eurosport_2_HD/video.m3u8
-#EXTINF:-1 group-title="КИНО",FOX HD [IV_3]
+#EXTINF:-1 group-title="КИНО",FOX HD [IV_2]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/219/index.m3u8
 #EXTINF:-1 group-title="КИНО",FOX LIFE [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/553/index.m3u8
 #EXTINF:-1 group-title="КИНО",FOX RUSSIA [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/550/index.m3u8
 #EXTINF:-1,Fox HD [IV_1]
-http://91.231.219.145:80/tv_fox_HD/video.m3u8
-#EXTINF:-1,Fox HD [IV_2]
 http://hls-v3-spbtv.msk.spbtv.com/for_spb/msk/ipv3/469.m3u8
 #EXTINF:-1,Fox Life HD [IV_1]
 http://hls-v3-spbtv.msk.spbtv.com/for_spb/msk/ipv3/470.m3u8
@@ -75,12 +69,8 @@ http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/1038/index.m3u8
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/1018/index.m3u8
 #EXTINF:-1 group-title="УКРАЇНСЬКІ",MUSIC BOX UA HD [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/1036/index.m3u8
-#EXTINF:-1,Music Box Gold [IV_1]
-http://live-musicbox.cdnvideo.ru/musicbox2/mboxtv.sdp/playlist.m3u8
 #EXTINF:-1,Music Box UA [IV_1]
 http://212.26.132.86/hls/mb_ua_2500.m3u8
-#EXTINF:-1,Music Choice [IV_1]
-http://edge.music-choice-play-chaina1.top.comcast.net/PlayMetadataInserter/play/chunklist.m3u8
 #EXTINF:-1,MusicBox UA [IV_1]
 http://212.26.132.86/hls/mb_ua_2500.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",NAT GEO WILD [IV_3]
@@ -153,13 +143,13 @@ http://92.46.127.146:8080/SetantaSportPlus/index.m3u8
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/163/index.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",VIASAT HISTORY [IV_3]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/162/index.m3u8
-#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",VIASAT NATURE [IV_2]
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",VIASAT NATURE [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/161/index.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",VIASAT NATURE/HISTORY HD [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/203/index.m3u8
 #EXTINF:-1 group-title="СПОРТ",VIASAT SPORT [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/160/index.m3u8
-#EXTINF:-1 group-title="СПОРТ",VIASAT SPORT HD [IV_2]
+#EXTINF:-1 group-title="СПОРТ",VIASAT SPORT HD [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/208/index.m3u8
 #EXTINF:-1 group-title="КИНО",VIP COMEDY [IV_2]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/200/index.m3u8
@@ -169,10 +159,6 @@ http://kv-3ln-n01.ollcdn.net/hls-tv/18/128147972228ef43d29d88c5490c0005/5ca630d7
 http://ott-cdn.ucom.am/s70/index.m3u8
 #EXTINF:-1,Viasat History [IV_2]
 https://hls-viasat.cdnvideo.ru/hls/relay/1501746731655/index.m3u8?md5=2Dxnjzcr2UxtTABLqdfYTA&e=1541934953&hls_proxy_host=97544926393025ab05ebfb4dc3486095
-#EXTINF:-1,Viasat Nature [IV_1]
-http://ott-cdn.ucom.am/s67/index.m3u8
-#EXTINF:-1,Viasat Sport HD [IV_1]
-http://91.231.219.145:80/tv_viasat_sport_HD/video.m3u8
 #EXTINF:-1 group-title="УКРАЇНСЬКІ",XSPORT [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/997/index.m3u8
 #EXTINF:-1 group-title="СПОРТ",XSPORT HD [IV_1]
@@ -187,22 +173,30 @@ http://live-trc33.cdnvideo.ru/trc33/trc33.sdp/playlist.m3u8
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/543/index.m3u8
 #EXTINF:-1 group-title="СПОРТ",КОННЫЙ МИР HD [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/214/index.m3u8
-#EXTINF:-1 group-title="СПОРТ",МАТЧ ТВ [IV_1]
-http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/535/index.m3u8
 #EXTINF:-1,МАТЧ! [IV_1]
 http://hls-v3-spbtv.msk.spbtv.com/for_spb/msk/ipv3/780.m3u8
-#EXTINF:-1 group-title="СПОРТ",МАТЧ! АРЕНА [IV_1]
-http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/528/index.m3u8
-#EXTINF:-1 group-title="СПОРТ",МАТЧ! БОЕЦ [IV_1]
-http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/150/index.m3u8
+#EXTINF:-1,МАТЧ! АРЕНА [IV_1]
+http://46.19.43.248:9981/stream/channelid/1313029335
+#EXTINF:-1,МАТЧ! БОЕЦ [IV_1]
+http://46.19.43.248:9981/stream/channelid/1585100965
+#EXTINF:-1,МАТЧ! ИГРА [IV_1]
+http://46.19.43.248:9981/stream/channelid/1405443465
+#EXTINF:-1,МАТЧ! НАШ СПОРТ [IV_1]
+http://46.19.43.248:9981/stream/channelid/1951989673
 #EXTINF:-1,МАТЧ! ФУТБОЛ 1 [IV_1]
 http://188.35.9.11:2025
+#EXTINF:-1,МАТЧ! ФУТБОЛ 1 [IV_2]
+http://46.19.43.248:9981/stream/channelid/354688218
 #EXTINF:-1,МАТЧ! ФУТБОЛ 2 [IV_1]
 http://188.35.9.11:2026
+#EXTINF:-1,МАТЧ! ФУТБОЛ 2 [IV_2]
+http://46.19.43.248:9981/stream/channelid/1669396465
 #EXTINF:-1,МАТЧ! ФУТБОЛ 2 HD [IV_1]
 http://188.35.9.11:2011
 #EXTINF:-1,МАТЧ! ФУТБОЛ 3 [IV_1]
 http://188.35.9.11:2027
+#EXTINF:-1,МАТЧ! ФУТБОЛ 3 [IV_2]
+http://46.19.43.248:9981/stream/channelid/2058911058
 #EXTINF:-1,МАТЧ! ФУТБОЛ 3 HD [IV_1]
 http://188.35.9.11:2012
 #EXTINF:-1,МАТЧ! Футбол 2 HD [IV_2]
@@ -223,8 +217,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 #EXTINF:-1 group-title="МУЗЫКА",МУЗ [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/116/index.m3u8
-#EXTINF:-1,МУЗ ТВ (Яндекс ТВ) [IV_1]
-https://strm.yandex.ru/kal/muztv_supres/muztv_supres0.m3u8?vsid=0
 #EXTINF:-1,МУЗ-ТВ (только для России) [IV_1]
 http://hlsstr03.svc.iptv.rt.ru/hls/CH_MUZTV/variant.m3u8?version=2
 #EXTINF:-1 group-title="МУЗЫКА",МУЗЫКА [IV_1]
@@ -261,8 +253,6 @@ http://vs307.vcdn.biz/287625265f52f73a45907aee48abd3df_megogo/vod/fs/o/41139161/
 http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8
 #EXTINF:-1,МузСоюз [IV_2]
 http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
-#EXTINF:-1 group-title="СПОРТ",НАШ ФУТБОЛ HD [IV_1]
-http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/220/index.m3u8
 #EXTINF:-1,ННТВ [IV_1]
 http://live-nntv.cdnvideo.ru/nntv/nntv.sdp/playlist.m3u8
 #EXTINF:-1,ННТВ HD [IV_1]
@@ -277,9 +267,7 @@ http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/501/index.m3u8
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/713/index.m3u8
 #EXTINF:-1,НТВ (только для России) [IV_1]
 http://hlsstr03.svc.iptv.rt.ru/hls/CH_NTV/variant.m3u8?version=2
-#EXTINF:-1,НТВ HD [IV_1]
-http://91.231.219.145:80/tv_ntv_HD/video.m3u8
-#EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",НТВ HD [IV_2]
+#EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",НТВ HD [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/213/index.m3u8
 #EXTINF:-1,НТВ Moldova [IV_1]
 http://93.115.137.166/hls/ntvm.m3u8
@@ -305,15 +293,13 @@ http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/741/index.m3u8
 http://dprtv.phoenix-dnr.ru/novorossia-tv
 #EXTINF:-1,Новый Мир [IV_1]
 http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
-#EXTINF:-1,Новый мир [IV_1]
-http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 #EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",ПЕРВЫЙ HD [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/204/index.m3u8
 #EXTINF:-1 group-title="УКРАЇНСЬКІ",ПЕРВЫЙ ГОРОДСКОЙ [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/981/index.m3u8
 #EXTINF:-1 group-title="УКРАЇНСЬКІ",ПЕРВЫЙ ГОРОДСКОЙ (КРИВОЙ РОГ) [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/939/index.m3u8
-#EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",ПЕРВЫЙ КАНАЛ [IV_3]
+#EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",ПЕРВЫЙ КАНАЛ [IV_4]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/127/index.m3u8
 #EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",ПЕРВЫЙ КАНАЛ (+2) [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/714/index.m3u8
@@ -321,8 +307,6 @@ http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/714/index.m3u8
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/701/index.m3u8
 #EXTINF:-1,ПЯТНИЦА [IV_2]
 http://ott-cdn.ucom.am/s50/04.m3u8
-#EXTINF:-1,ПЯТНИЦА! HD [IV_1]
-https://video-4-306.rutube.ru/stream/10113616/9f87a9a0cecbe773be6fddcbd93585ac/mono.m3u8
 #EXTINF:-1,Первый Балтийский Муз. [IV_1]
 https://streamer5.tvdom.tv/in/tvdom/tracks-v1a1/index.m3u8
 #EXTINF:-1,Первый Городской (Калининград) [IV_1]
@@ -339,8 +323,6 @@ http://pershij-dlovij-hls3.cosmonova.net.ua/hls/pershij-dlovij_ua_mid/index.m3u8
 http://pershij-dlovij-hls3.cosmonova.net.ua/hls/pershij-dlovij_ua_hi/index.m3u8
 #EXTINF:-1,Первый Канал [IV_2]
 http://79.135.71.195:7777
-#EXTINF:-1,Первый Канал HD [IV_1]
-http://91.231.219.145:80/tv_perviy_kanal_HD/video.m3u8
 #EXTINF:-1,Первый Музыкальный BY [IV_1]
 http://rtmp.one.by:1200
 #EXTINF:-1,Первый Музыкальный BY [FHD] [IV_1]
@@ -355,6 +337,8 @@ http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/1kirov.sdp/playlist.m3u8
 http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/1kirov.sdp/playlist.m3u8
 #EXTINF:-1,Первый канал [IV_1]
 http://46.32.64.42/s/live/1/86.169.51.136/1/0.m3u8
+#EXTINF:-1,Первый канал [IV_3]
+http://182.73.122.74:10005/bysid/414
 #EXTINF:-1,Первый канал "Евразия" [IV_1]
 http://sc.id-tv.kz/1KanalEvraziya_38_39.m3u8
 #EXTINF:-1,Первый канал "Евразия" [IV_2]
@@ -373,7 +357,7 @@ http://ott-cdn.ucom.am/s50/index.m3u8
 http://hlsstr02.svc.iptv.rt.ru/hls/CH_PYATNIZZA/variant.m3u8?version=2
 #EXTINF:-1,РORTAL FOXMIX TV [IV_1]
 http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.m3u8
-#EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",РОССИЯ 1 [IV_3]
+#EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",РОССИЯ 1 [IV_4]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/504/index.m3u8
 #EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",РОССИЯ 1 HD [IV_3]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/205/index.m3u8
@@ -431,12 +415,16 @@ http://hlsstr03.svc.iptv.rt.ru/hls/CH_RUSSIAK/variant.m3u8?version=2
 http://a3569455780-s26881.cdn.ngenix.net/live/smil:rtrp.smil/chunklist_b1600000.m3u8
 #EXTINF:-1,Россия РТР [IV_2]
 http://ott-cdn.ucom.am/s15/index.m3u8
+#EXTINF:-1,Россия1 [IV_3]
+http://182.73.122.74:10005/bysid/403
+#EXTINF:-1,Русский Бестселер [IV_1]
+http://182.73.122.74:10005/bysid/420
 #EXTINF:-1,СТС [IV_1]
 http://46.32.64.42/s/live/8/86.169.51.136/1/0.m3u8
 #EXTINF:-1,СТС [IV_2]
-http://ott-cdn.ucom.am/s52/index.m3u8
-#EXTINF:-1,СТС [IV_3]
 http://vs310.vcdn.biz/f6681bf4f562aec018b39c4bf3316dc6_megogo/vod/fs/o/40256721/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-sid985762079-b2490000.m3u8
+#EXTINF:-1,СТС [IV_3]
+http://ott-cdn.ucom.am/s52/index.m3u8
 #EXTINF:-1,СТС (только для России) [IV_1]
 http://hlsstr02.svc.iptv.rt.ru/hls/CH_STS/variant.m3u8?version=2
 #EXTINF:-1,СТС International [IV_1]
@@ -448,8 +436,12 @@ http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/1056/index.m3u8
 #EXTINF:-1,ТВЦ [IV_1]
 http://tvc-hls.cdnvideo.ru/tvc-p222/smil:tvc_p11.smil/playlist.m3u8
 #EXTINF:-1,ТВЦ [IV_2]
-http://vs342.vcdn.biz/4a6e29aac7d5b460a40586eaff681553_megogo/vod/fs/o/16282451/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-sid135494188-b2490000.m3u8
+http://ott-cdn.ucom.am/s54/04.m3u8
 #EXTINF:-1,ТВЦ [IV_3]
+http://vs342.vcdn.biz/4a6e29aac7d5b460a40586eaff681553_megogo/vod/fs/o/16282451/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-sid135494188-b2490000.m3u8
+#EXTINF:-1,ТВЦ [IV_4]
+http://ott-cdn.ucom.am/s54/index.m3u8
+#EXTINF:-1,ТВЦ [IV_5]
 http://tvc-hls.cdnvideo.ru/tvc-p222/smil:tvc_p11.smil/chunklist_b1703000.m3u8
 #EXTINF:-1,ТВЦ (только для России) [IV_1]
 http://hlsstr01.svc.iptv.rt.ru/hls/CH_TVC/variant.m3u8?version=2
@@ -460,16 +452,16 @@ http://46.32.64.42/s/live/7/86.169.51.136/1/0.m3u8
 #EXTINF:-1,ТНТ [IV_2]
 http://vs350.vcdn.biz/1ff4118dc0fefcbd3ce5ae5fdf2fc482_megogo/vod/fs/o/40500701/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-sid333265525-b2490000.m3u8
 #EXTINF:-1,ТНТ [IV_3]
+http://182.73.122.74:10005/bysid/413
+#EXTINF:-1,ТНТ [IV_4]
 http://ott-cdn.ucom.am/s19/index.m3u8
-#EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",ТНТ [IV_4]
+#EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",ТНТ [IV_5]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/502/index.m3u8
 #EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",ТНТ (+2) [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/717/index.m3u8
 #EXTINF:-1,ТНТ (только для России) [IV_1]
 http://hlsstr02.svc.iptv.rt.ru/hls/CH_TNT/variant.m3u8?version=2
-#EXTINF:-1,ТНТ HD [IV_1]
-http://91.231.219.145:80/tv_tnt_HD/video.m3u8
-#EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",ТНТ HD [IV_2]
+#EXTINF:-1 group-title="ОБЩЕСТВЕННЫЕ",ТНТ HD [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/237/index.m3u8
 #EXTINF:-1 group-title="МУЗЫКА",ТНТ MUSIC [IV_1]
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/710/index.m3u8
@@ -481,5 +473,9 @@ http://ott-cdn.ucom.am/s100/index.m3u8
 http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/104/index.m3u8
 #EXTINF:-1,ТНТ4 (только для России) [IV_1]
 http://hlsstr02.svc.iptv.rt.ru/hls/CH_TNT4/variant.m3u8?version=2
+#EXTINF:-1 group-title="СПОРТ",ФУТБОЛ 1 HD [IV_1]
+http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/800/index.m3u8
+#EXTINF:-1 group-title="СПОРТ",ФУТБОЛ 2 HD [IV_1]
+http://157d378f.ottv.biz/iptv/EKHDRYAWWG769E/801/index.m3u8
 #EXTINF:-1,стс love [IV_1]
 http://ott-cdn.ucom.am/s52/04.m3u8
