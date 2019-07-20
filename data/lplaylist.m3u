@@ -22,12 +22,8 @@ http://194.44.203.253/hls/117/stream.m3u8
 #EXTINF:-1,Extreme Sports [IV_1]
 http://194.44.203.253/hls/93/stream.m3u8
 #EXTINF:-1,FOX [IV_1]
-http://82.202.163.118:80/0115/mono.m3u8
-#EXTINF:-1,FOX [IV_2]
 http://kv-3ln-n01.ollcdn.net/hls-tv/18/128147971028ef43d29d88c5490c0005/5ca630d7/fox/fox.m3u8
 #EXTINF:-1,FOX life [IV_1]
-http://82.202.163.118:80/0114/mono.m3u8
-#EXTINF:-1,FOX life [IV_2]
 http://kv-3ln-n01.ollcdn.net/hls-tv/18/128147971028ef43d29d88c5490c0005/5ca630d7/foxlife/foxlife.m3u8
 #EXTINF:-1,Hit Music Channel [IV_1]
 http://1mstream.digicable.hu/hitmusic/hitmusic.m3u8
@@ -37,6 +33,8 @@ http://hitmusic.hu/hitmusic.m3u8
 http://hitmusic.hu/hitmusic.m3u8
 #EXTINF:-1,MTV HD [IV_1]
 http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/index_3500_av-b.m3u8
+#EXTINF:-1,MTV HITS [IV_1]
+http://182.73.122.74:10005/bysid/412
 #EXTINF:-1,MTV Mix (Уфа) [IV_1]
 http://81.30.182.82:18092/hls/live.m3u8
 #EXTINF:-1,Music Box UA [IV_1]
@@ -47,14 +45,8 @@ http://edge.music-choice-play-chaina1.top.comcast.net/PlayMetadataInserter/play/
 http://212.26.132.86/hls/mb_ua_2500.m3u8
 #EXTINF:-1,Nat Geo Wild [IV_1]
 http://kv-3ln-n01.ollcdn.net/hls-tv/18/128147972228ef43d29d88c5490c0005/5ca630d7/natgeowild/natgeowild.m3u8
-#EXTINF:-1,Nat Geo Wild HD [IV_1]
-http://pub1-cdn.perm.ertelecom.ru/natgeowildhd_gibrid/0/track_2_4000/playlist.m3u8
 #EXTINF:-1,National Geographic [IV_1]
 http://kv-3ln-n01.ollcdn.net/hls-tv/18/128147972228ef43d29d88c5490c0005/5ca630d7/nationalgeographic/nationalgeographic.m3u8
-#EXTINF:-1,National Geographic HD [IV_1]
-http://pub1-cdn.perm.ertelecom.ru/natgeohd_gibrid/0/track_2_4000/playlist.m3u8
-#EXTINF:-1,Nickelodeon [IV_1]
-http://pub1-cdn.perm.ertelecom.ru/nickelodeon_gibrid/0/track_2_4000/playlist.m3u8
 #EXTINF:-1,ON! Пятница [IV_1]
 http://sc.id-tv.kz/Tan_36_37.m3u8
 #EXTINF:-1,OTV Music [IV_1]
@@ -81,30 +73,26 @@ https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8?vsid=0
 http://serv25.vintera.tv:8081/test/rusmusbox/playlist.m3u8
 #EXTINF:-1,SENTANA SPORT [IV_1]
 http://ott-cdn.ucom.am/s81/04.m3u8
+#EXTINF:-1,SENTANA SPORT+ [IV_1]
+http://ott-cdn.ucom.am/s82/04.m3u8
 #EXTINF:-1,Setanta Sport [IV_1]
 http://ott-cdn.ucom.am/s81/index.m3u8
 #EXTINF:0,Setanta Sport [IV_1]
 http://ott-cdn.ucom.am/s81/index.m3u8
 #EXTINF:-1,Setanta Sport HD [IV_1]
 http://92.46.127.146:8080/SetantaSport/index.m3u8
+#EXTINF:-1,Setanta Sport Plus [IV_1]
+http://ott-cdn.ucom.am/s82/index.m3u8
 #EXTINF:-1,Setanta Sport Plus HD [IV_1]
 http://92.46.127.146:8080/SetantaSportPlus/index.m3u8
 #EXTINF:-1,ViP Comedy [IV_1]
 http://kv-3ln-n01.ollcdn.net/hls-tv/18/128147972228ef43d29d88c5490c0005/5ca630d7/vipcomedy/vipcomedy.m3u8
-#EXTINF:-1,Viasat Nature/History HD [IV_1]
-http://82.202.163.118:80/066/mono.m3u8
-#EXTINF:-1,Viasat sport HD [IV_1]
-http://193.111.244.23:7777/viasat_sport_hd/playlist.m3u8
-#EXTINF:-1,paramaunt comedy [IV_1]
-http://185.129.1.242/paramauntcomedy/index.m3u8
-#EXTINF:-1,viasat explorer [IV_1]
-http://185.129.1.242/viasatexplorer/index.m3u8
-#EXTINF:-1,viasat history [IV_1]
-http://185.129.1.242/viasathistory/index.m3u8
-#EXTINF:-1,viasat nature [IV_1]
-http://185.129.1.242/viasatnature/index.m3u8
-#EXTINF:-1,viasat sport [IV_1]
-http://185.129.1.242/viasatsport/index.m3u8
+#EXTINF:-1,Viasat History [IV_1]
+http://ott-cdn.ucom.am/s70/index.m3u8
+#EXTINF:0,World Fashion Channel Россия HD [IV_1]
+http://wfc.bonus-tv.ru:80/cdn/wfcrus/tracks-v1a1/index.m3u8
+#EXTINF:-1,World Fashion Channel Россия HD [IV_1]
+http://wfc.bonus-tv.ru:80/cdn/wfcrus/tracks-v1a1/index.m3u8
 #EXTINF:-1,Астрахань.Ru Sport [IV_1]
 http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v5a1/index.m3u8
 #EXTINF:-1,БелМуз ТВ [IV_1]
@@ -135,8 +123,6 @@ http://hlsstr04.svc.iptv.rt.ru/hls/CH_MIR/variant.m3u8?version=2
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 #EXTINF:0,МИР Premium [IV_2]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
-#EXTINF:-1,МУЗ ТВ (Яндекс ТВ) [IV_1]
-https://strm.yandex.ru/kal/muztv_supres/muztv_supres0.m3u8?vsid=0
 #EXTINF:-1,МУЗ-ТВ (только для России) [IV_1]
 http://hlsstr03.svc.iptv.rt.ru/hls/CH_MUZTV/variant.m3u8?version=2
 #EXTINF:-1,Мир [IV_1]
@@ -161,8 +147,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 http://sc.id-tv.kz/Mir.m3u8
 #EXTINF:-1,Мир Белогорья [IV_1]
 http://stream.tvbelgorod.ru:8080/mirbelogorya/index.m3u8
-#EXTINF:-1,Мир сериала [IV_1]
-http://185.129.1.242/mirseriala/index.m3u8
 #EXTINF:-1,Муз ТВ [IV_1]
 http://ott-cdn.ucom.am/s28/index.m3u8
 #EXTINF:-1,Муз ТВ [IV_2]
@@ -181,6 +165,8 @@ http://vs310.vcdn.biz/f8a5a91d4e5c0599e6825202d049b01a_megogo/vod/fs/o/41139311/
 http://95.216.187.219:8080/000-ntv
 #EXTINF:-1,НТВ (только для России) [IV_1]
 http://hlsstr03.svc.iptv.rt.ru/hls/CH_NTV/variant.m3u8?version=2
+#EXTINF:-1,НТВ Moldova [IV_1]
+http://93.115.137.166/hls/ntvm.m3u8
 #EXTINF:-1,НТВ Молдова [IV_1]
 http://93.115.137.166/hls/ntvm.m3u8
 #EXTINF:-1,НТВ мир [IV_1]
@@ -229,6 +215,8 @@ http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/1kirov.sdp/playlist.m3u8
 http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/1kirov.sdp/playlist.m3u8
 #EXTINF:-1,Первый канал [IV_1]
 http://46.32.64.42/s/live/1/86.169.51.136/1/0.m3u8
+#EXTINF:-1,Первый канал [IV_3]
+http://182.73.122.74:10005/bysid/414
 #EXTINF:-1,Первый канал "Евразия" [IV_1]
 http://sc.id-tv.kz/1KanalEvraziya_38_39.m3u8
 #EXTINF:-1,Первый канал "Евразия" [IV_2]
@@ -293,6 +281,10 @@ http://a3569456481-s26881.cdn.ngenix.net/live/smil:rk.smil/chunklist_b1600000.m3
 http://hlsstr03.svc.iptv.rt.ru/hls/CH_RUSSIAK/variant.m3u8?version=2
 #EXTINF:-1,Россия РТР [IV_1]
 http://ott-cdn.ucom.am/s15/index.m3u8
+#EXTINF:-1,Россия1 [IV_3]
+http://182.73.122.74:10005/bysid/403
+#EXTINF:-1,Русский Бестселер [IV_1]
+http://182.73.122.74:10005/bysid/420
 #EXTINF:-1,СТС [IV_1]
 http://46.32.64.42/s/live/8/86.169.51.136/1/0.m3u8
 #EXTINF:-1,СТС [IV_2]
@@ -324,6 +316,8 @@ http://46.32.64.42/s/live/7/86.169.51.136/1/0.m3u8
 #EXTINF:-1,ТНТ [IV_2]
 http://vs350.vcdn.biz/1ff4118dc0fefcbd3ce5ae5fdf2fc482_megogo/vod/fs/o/40500701/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-sid333265525-b2490000.m3u8
 #EXTINF:-1,ТНТ [IV_3]
+http://182.73.122.74:10005/bysid/413
+#EXTINF:-1,ТНТ [IV_4]
 http://ott-cdn.ucom.am/s19/index.m3u8
 #EXTINF:-1,ТНТ (только для России) [IV_1]
 http://hlsstr02.svc.iptv.rt.ru/hls/CH_TNT/variant.m3u8?version=2
