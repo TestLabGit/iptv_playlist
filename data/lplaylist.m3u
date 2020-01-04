@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1,100% News [IV_1]
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
-#EXTINF:-1,312 Музыка HD [IV_1]
-http://176.126.166.43:1935/live/312musik/playlist.m3u8
 #EXTINF:-1,=== Обсуждение: smarttvnews.ru === [IV_1]
 https://smarttvnews.ru/wp-content/uploads/2018/11/BT-2016-logo_color7890.png
 #EXTINF:-1,AD Sports 1 HD [IV_1]
@@ -17,14 +15,10 @@ http://178.124.183.5/hls/C5P6YOXJZT/variant.m3u8?version=2
 http://31.133.47.1:8800/eurosport
 #EXTINF:-1,Eurosport 1 [IV_1]
 http://46.32.68.167/s/live/501/86.169.51.136/0/0.m3u8
-#EXTINF:-1,Eurosport 1 [IV_2]
-http://195.162.90.141:8080/228ae58f824e7668c245ecb1e5c1c850
 #EXTINF:-1,Eurosport 2 [IV_1]
 http://31.133.47.1:8800/eurosport_2
 #EXTINF:-1,Eurosport 2 [IV_2]
 http://46.32.68.167/s/live/502/86.169.51.136/0/0.m3u8
-#EXTINF:-1,Eurosport 2 [IV_3]
-http://195.162.90.141:8080/440f706cdc90fc2a7b78e72a6d318ad9
 #EXTINF:-1,Eurosport 4K [IV_1]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u8
 #EXTINF:-1,Eurosport 4K (Zabava) [IV_1]
@@ -117,8 +111,6 @@ http://178.124.183.5/hls/FWHTTL8YXU/variant.m3u8?version=2
 http://178.124.183.5/hls/5T3FNFICQ4/variant.m3u8?version=2
 #EXTINF:-1,Sport 1 LT [IV_1]
 http://185.176.117.243/live/eds/Sport1/HLS_encr/index.m3u8
-#EXTINF:-1,Steelbird Music [IV_1]
-http://cdn25.live247stream.com/steelbirdmusic/tv/playlist.m3u8
 #EXTINF:-1,TRACE SPORT STARS (звука нет) [IV_1]
 https://d2ktlibtvvj8vp.cloudfront.net/trace_sportsstars/6/prog_index.m3u8
 #EXTINF:-1,UTV MUSIC [IV_1]
@@ -129,19 +121,23 @@ https://hls-viasat.cdnvideo.ru/hls/relay/1501746731655/index.m3u8?md5=2Dxnjzcr2U
 http://streamer.sktv.peers.tv/streaming/tv_1000_comedy_hd/364/copy/playlist.m3u8
 #EXTINF:-1,Viasat Explore [IV_1]
 http://178.124.183.5/hls/JQQ83OBHTQ/variant.m3u8?version=2
+#EXTINF:0,Viasat Explore [IV_2]
+http://178.124.183.5/hls/JQQ83OBHTQ_HLS/variant.m3u8?version=2
 #EXTINF:-1,Viasat Explorer [IV_1]
 http://185.176.117.243/live/eds/Viasat_Explorer_SD/HLS_encr/Viasat_Explorer_SD.m3u8
-#EXTINF:-1,Viasat Explorer [IV_2]
-http://178.124.183.5/hls/JQQ83OBHTQ/variant.m3u8
 #EXTINF:-1,Viasat Explorer HD [IV_1]
 http://185.176.117.243/live/eds/ViasatExploreHD/HLS_encr/index.m3u8
 #EXTINF:-1,Viasat History [IV_2]
-http://185.176.117.243/live/eds/Viasat_History_SD/HLS_encr/Viasat_History_SD.m3u8
+http://178.124.183.5/hls/CH_VIASATHISTORY/variant.m3u8
 #EXTINF:-1,Viasat History [IV_3]
+http://185.176.117.243/live/eds/Viasat_History_SD/HLS_encr/Viasat_History_SD.m3u8
+#EXTINF:0,Viasat History [IV_4]
 http://178.124.183.5/hls/CH_VIASATHISTORY/variant.m3u8
 #EXTINF:-1,Viasat History HD [IV_1]
 http://185.176.117.243/live/eds/ViasatHistoryHD/HLS_encr/ViasatHistoryHD.m3u8
-#EXTINF:-1,Viasat Nature [IV_1]
+#EXTINF:0,Viasat Nature [IV_1]
+http://178.124.183.5/hls/BN3FTDY3T8_HLS/variant.m3u8?version=2
+#EXTINF:-1,Viasat Nature [IV_2]
 http://185.176.117.243/live/eds/Viasat_Nature_SD/HLS_encr/Viasat_Nature_SD.m3u8
 #EXTINF:-1,Viasat Sport HD [IV_1]
 http://78.157.230.19/streaming/viasat_sport_hd/364/copy/playlist.m3u8
@@ -183,8 +179,6 @@ http://dmitry-tv.ru/his/itv_zabava/CH_MUZTV.m3u8
 http://gorod.tv/s/live/20/ssiptv/0/0.m3u8
 #EXTINF:-1,Матч! Планета [IV_1]
 http://178.124.183.5/hls/CH_MATCHPLANETA/variant.m3u8?version=2
-#EXTINF:-1,Матч! Премьер [IV_1]
-http://178.124.183.5/hls/HNBMWPATWZ/variant.m3u8?version=2
 #EXTINF:-1,Матч! Премьер HD [IV_1]
 http://demo1.cdn.micro.im:63080/tXOTRkENh6dQf045/nashfutbolhd/chunklist.m3u8
 #EXTINF:0,Мир [IV_1]
@@ -213,10 +207,14 @@ http://46.32.68.167/s/live/4/51.51.51.51/0/0.m3u8
 http://46.32.68.167/s/live/4/86.169.51.136/0/0.m3u8
 #EXTINF:-1,НТВ [IV_4]
 http://gorod.tv/s/live/4/ssiptv/0/0.m3u8
+#EXTINF:-1,НТВ Беларусь [IV_1]
+http://178.124.183.5/hls/DYJ5GH8HOK_HLS/variant.m3u8?version=2
 #EXTINF:-1,НТВ Мир Baltic [IV_1]
 http://185.176.117.243/live/eds/NTV_Mir/HLS_encr/NTV_Mir.m3u8
 #EXTINF:-1,НТВ Мир Балтика [IV_1]
 http://88.119.220.2/live/eds/NTV_Mir/HLS_encr/NTV_Mir.m3u8
+#EXTINF:-1,НТВ Молдова [IV_1]
+http://93.115.137.166/hls/ntvm.m3u8
 #EXTINF:-1,Новый Мир [IV_1]
 http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 #EXTINF:-1,Новый мир [IV_1]
@@ -225,14 +223,8 @@ http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 http://46.32.68.167/s/live/937/86.169.51.136/0/0.m3u8
 #EXTINF:-1,Первый Балтийский музыкальный канал [IV_1]
 https://streamer5.tvdom.tv/in/tvdom/tracks-v1a1/index.m3u8
-#EXTINF:-1,Первый Городской (Калининград) [IV_1]
-https://live-1gorodskoi.cdnvideo.ru/1gorodskoi/klg.sdp/chunklist.m3u8
 #EXTINF:-1,Первый Деловой [IV_1]
 http://pershij-dlovij-hls3.cosmonova.net.ua/hls/pershij-dlovij_ua_hi/index.m3u8
-#EXTINF:-1,Первый Канал [IV_3]
-http://79.135.71.195:7777
-#EXTINF:-1,Первый Канал (+2) [IV_1]
-http://79.135.71.195:7777
 #EXTINF:-1,Первый Канал HD [IV_1]
 http://188.35.9.5:10005/stolen/103r/imposter.rar
 #EXTINF:-1,Первый Метео [IV_1]
@@ -245,13 +237,11 @@ http://rt-ct-yarl-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3
 http://rt-vlg-kirov-htlive-lb.cdn.ngenix.net/hls/CH_R03_OTT_VLG_KIROV_PERVYGORODSKOY/variant.m3u8?version=2
 #EXTINF:-1,Первый городской (Омск) [IV_1]
 http://rt-sib-omsk-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8?version=2
-#EXTINF:-1,Первый городской Калининград [IV_1]
-http://live-1gorodskoi.cdnvideo.ru/1gorodskoi/klg.sdp/playlist.m3u8
 #EXTINF:0,Первый канал [IV_1]
 http://rt-vlg-nn-htlive-lb.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_1TV/variant.m3u8
 #EXTINF:0,Первый канал [IV_2]
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_1TV/variant.m3u8?version=2
-#EXTINF:-1,Первый канал [IV_4]
+#EXTINF:-1,Первый канал [IV_3]
 http://gorod.tv/s/live/1/ssiptv/0/0.m3u8
 #EXTINF:0,Первый канал (+5) [IV_1]
 http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_IRK_1TV/variant.m3u8?version=2
@@ -288,11 +278,7 @@ http://88.119.220.2/live/eds/Ren_TV/HLS_encr/Ren_TV.m3u8
 #EXTINF:-1,Россия 1 [IV_1]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,Россия 1 [IV_2]
-http://79.135.71.195:7778
-#EXTINF:-1,Россия 1 [IV_3]
 http://gorod.tv/s/live/2/ssiptv/0/0.m3u8
-#EXTINF:-1,Россия 1 (+2) [IV_1]
-http://79.135.71.195:7778
 #EXTINF:-1,Россия 1 (+6) [IV_1]
 http://tv-online.gtrkchita.ru:8080/hls/r1-chita_360p.m3u8
 #EXTINF:-1,Россия 1 HD [IV_1]
