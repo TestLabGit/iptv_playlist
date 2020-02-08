@@ -1,12 +1,12 @@
 #EXTM3U
 #EXTINF:-1,100% News [IV_1]
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
+#EXTINF:-1,312 Музыка [IV_1]
+http://176.126.166.43:1935/live/312musik/playlist.m3u8
+#EXTINF:-1,312 Музыка HD [IV_1]
+http://176.126.166.43:1935/live/312musik/playlist.m3u8
 #EXTINF:-1,=== Обсуждение: smarttvnews.ru === [IV_1]
 https://smarttvnews.ru/wp-content/uploads/2018/11/BT-2016-logo_color7890.png
-#EXTINF:-1,AD Sports 1 HD [IV_1]
-http://adtv.ercdn.net/adsport1/adsport1_720p.m3u8
-#EXTINF:-1,AD Sports 2 HD [IV_1]
-http://adtv.ercdn.net/adsport2/adsport2_720p.m3u8
 #EXTINF:-1,EU.Music HD [IV_1]
 http://54.36.109.228/21100/mono.m3u8
 #EXTINF:-1,Euronews [IV_1]
@@ -14,12 +14,8 @@ http://178.124.183.5/hls/C5P6YOXJZT/variant.m3u8?version=2
 #EXTINF:-1,Eurosport [IV_1]
 http://31.133.47.1:8800/eurosport
 #EXTINF:-1,Eurosport 1 [IV_1]
-http://46.32.68.167/s/live/501/86.169.51.136/0/0.m3u8
-#EXTINF:-1,Eurosport 1 [IV_2]
-http://213.174.8.7:8000/play/15/index.m3u8
+http://31.133.47.1:8800/eurosport
 #EXTINF:-1,Eurosport 2 [IV_1]
-http://46.32.68.167/s/live/502/86.169.51.136/0/0.m3u8
-#EXTINF:-1,Eurosport 2 [IV_2]
 http://31.133.47.1:8800/eurosport_2
 #EXTINF:-1,Eurosport 4K [IV_1]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u8
@@ -32,13 +28,9 @@ http://dmitry-tv.ru/his/itv_zabava/CH_EUROSPORT4K_HLSQHD.m3u8
 #EXTINF:-1,Eurosport4K UHD [IV_1]
 http://dmitry-tv.ru/his/itv_zabava/CH_EUROSPORT4K_HLSUHD.m3u8
 #EXTINF:-1,FOX [IV_1]
-http://46.32.68.167/s/live/249/86.169.51.136/0/0.m3u8
-#EXTINF:-1,FOX [IV_2]
 http://178.124.183.5/hls/CH_FOX/variant.m3u8?version=2
-#EXTINF:-1,FOX Life [IV_2]
+#EXTINF:-1,FOX Life [IV_1]
 http://178.124.183.5/hls/CH_FOXL/variant.m3u8?version=2
-#EXTINF:-1,FOX life [IV_1]
-http://46.32.68.167/s/live/248/86.169.51.136/0/0.m3u8
 #EXTINF:-1,Hit Music Channel [IV_1]
 http://94.21.128.54/hitmusic.m3u8
 #EXTINF:-1,Hit Music Channel [IV_2]
@@ -57,11 +49,7 @@ http://212.26.132.86/hls/mb_ua_2500.m3u8
 http://178.124.183.5/hls/ESCMSBZJ8X/variant.m3u8?version=2
 #EXTINF:0,Nat Geo Wild [IV_1]
 http://178.124.183.5/hls/ESCMSBZJ8X/variant.m3u8?version=2
-#EXTINF:-1,Nat Geo Wild HD [IV_1]
-http://46.32.68.167/s/live/915/86.169.51.136/0/0.m3u8
 #EXTINF:-1,National Geographic [IV_1]
-http://46.32.68.167/s/live/407/86.169.51.136/0/0.m3u8
-#EXTINF:-1,National Geographic [IV_2]
 http://178.124.183.5/hls/CH_NATGEO/variant.m3u8?version=2
 #EXTINF:-1,National Geographic Channel [IV_1]
 http://178.124.183.5/hls/CH_NATGEO/variant.m3u8?version=2
@@ -72,23 +60,13 @@ http://88.119.220.2/live/eds/NatGeoHD/HLS_encr/NatGeoHD.m3u8
 #EXTINF:-1,NewsOne [IV_1]
 https://bozztv.com/36bay2/gin/giniko_newsone_700kb_36bay2/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Nickelodeon [IV_1]
-http://46.32.68.167/s/live/602/86.169.51.136/0/0.m3u8
-#EXTINF:-1,Nickelodeon [IV_2]
 http://88.119.220.2/live/eds/Nickelodeon/HLS_encr/Nickelodeon.m3u8
-#EXTINF:-1,Nickelodeon [IV_3]
-http://217.21.34.158:30000/Nickelodeon/index.m3u8
-#EXTINF:-1,Nickelodeon [IV_4]
+#EXTINF:-1,Nickelodeon [IV_2]
 http://185.176.117.243/live/eds/Nickelodeon/HLS_encr/Nickelodeon.m3u8
-#EXTINF:-1,Nickelodeon HD [IV_1]
-http://217.21.34.158:30000/NickelodeonHD/index.m3u8
 #EXTINF:-1,One.by Россия [IV_1]
 http://rtmp.one.by:2200
 #EXTINF:-1,One.by Россия HD [IV_1]
 http://rtmp.one.by:2300
-#EXTINF:-1,Paramount Comedy [IV_1]
-http://46.32.68.167/s/live/250/86.169.51.136/0/0.m3u8
-#EXTINF:-1,Paramount Comedy [IV_2]
-http://217.21.34.158:30000/ParamountComedy/index.m3u8
 #EXTINF:-1,Portal Foxmix TV [IV_1]
 http://149.56.17.92:1935/portalfoxmix/portalfoxmix/playlist.m3u8
 #EXTINF:-1,Reload Radio Music Power HD [IV_1]
@@ -123,8 +101,6 @@ http://cdn25.live247stream.com/steelbirdmusic/tv/playlist.m3u8
 https://d2ktlibtvvj8vp.cloudfront.net/trace_sportsstars/6/prog_index.m3u8
 #EXTINF:-1,UTV MUSIC [IV_1]
 http://81.196.0.126/utvedge/utvlivehls/index.m3u8
-#EXTINF:-1,VIASAT HISTORY [IV_1]
-https://hls-viasat.cdnvideo.ru/hls/relay/1501746731655/index.m3u8?md5=2Dxnjzcr2UxtTABLqdfYTA&e=1541934953&hls_proxy_host=97544926393025ab05ebfb4dc3486095
 #EXTINF:-1,ViP Comedy [IV_1]
 http://streamer.sktv.peers.tv/streaming/tv_1000_comedy_hd/364/copy/playlist.m3u8
 #EXTINF:-1,Viasat Explore [IV_1]
@@ -135,11 +111,11 @@ http://178.124.183.5/hls/JQQ83OBHTQ_HLS/variant.m3u8?version=2
 http://185.176.117.243/live/eds/Viasat_Explorer_SD/HLS_encr/Viasat_Explorer_SD.m3u8
 #EXTINF:-1,Viasat Explorer HD [IV_1]
 http://185.176.117.243/live/eds/ViasatExploreHD/HLS_encr/index.m3u8
-#EXTINF:-1,Viasat History [IV_2]
+#EXTINF:-1,Viasat History [IV_1]
 http://178.124.183.5/hls/CH_VIASATHISTORY/variant.m3u8
-#EXTINF:-1,Viasat History [IV_3]
+#EXTINF:-1,Viasat History [IV_2]
 http://185.176.117.243/live/eds/Viasat_History_SD/HLS_encr/Viasat_History_SD.m3u8
-#EXTINF:0,Viasat History [IV_4]
+#EXTINF:0,Viasat History [IV_1]
 http://178.124.183.5/hls/CH_VIASATHISTORY/variant.m3u8
 #EXTINF:-1,Viasat History HD [IV_1]
 http://185.176.117.243/live/eds/ViasatHistoryHD/HLS_encr/ViasatHistoryHD.m3u8
@@ -153,42 +129,20 @@ http://78.157.230.19/streaming/viasat_sport_hd/364/copy/playlist.m3u8
 http://wfc.bonus-tv.ru:80/cdn/wfcrus/tracks-v1a1/index.m3u8
 #EXTINF:-1,Астрахань.Ru Sport [IV_1]
 http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v5a1/index.m3u8
-#EXTINF:-1,Детский мир [IV_1]
-http://46.32.68.167/s/live/611/86.169.51.136/0/0.m3u8
 #EXTINF:-1,Любимый /ТНТ4 (Киргизия) [IV_1]
 http://92.245.103.126:1935/live/live.stream/playlist.m3u8
 #EXTINF:-1,МАТЧ! [IV_1]
-http://46.32.68.167/s/live/3/51.51.51.51/0/0.m3u8
-#EXTINF:-1,МАТЧ! [IV_2]
-http://gorod.tv/s/live/3/ssiptv/0/0.m3u8
-#EXTINF:-1,МАТЧ! [IV_3]
 https://bl.zxz.su/live/133529/HLS/4614144_3,2883584_1,1153024_2/1565280709/c5712187e9ab87a5700de51a7474c543/playlist.m3u8
-#EXTINF:-1,МАТЧ! HD [IV_1]
-http://46.32.68.167/s/live/939/86.169.51.136/0/0.m3u8
-#EXTINF:-1,МАТЧ! Арена [IV_1]
-http://46.32.68.167/s/live/506/86.169.51.136/0/0.m3u8
-#EXTINF:-1,МАТЧ! Боец [IV_1]
-http://46.32.68.167/s/live/509/86.169.51.136/0/0.m3u8
-#EXTINF:-1,МАТЧ! Игра [IV_1]
-http://46.32.68.167/s/live/507/86.169.51.136/0/0.m3u8
-#EXTINF:-1,МАТЧ! Страна [IV_1]
-http://46.32.68.167/s/live/510/86.169.51.136/0/0.m3u8
-#EXTINF:-1,МИР [IV_2]
-http://gorod.tv/s/live/18/ssiptv/0/0.m3u8
 #EXTINF:0,МИР Premium [IV_1]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 #EXTINF:-1,МИР Premium [IV_1]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 #EXTINF:0,МУЗ ТВ [IV_1]
 http://dmitry-tv.ru/his/itv_zabava/CH_MUZTV.m3u8
-#EXTINF:-1,МУЗ ТВ [IV_2]
-http://gorod.tv/s/live/20/ssiptv/0/0.m3u8
 #EXTINF:-1,Матч! Планета [IV_1]
 http://178.124.183.5/hls/CH_MATCHPLANETA/variant.m3u8?version=2
 #EXTINF:0,Мир [IV_1]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/chunklist.m3u8
-#EXTINF:-1,Мир [IV_3]
-http://46.32.68.167/s/live/18/86.169.51.136/0/0.m3u8
 #EXTINF:-1,Мир [IV_1]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/chunklist.m3u8
 #EXTINF:0,Мир 24 HD [IV_1]
@@ -197,30 +151,20 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1,Мир international [IV_1]
 http://sc.id-tv.kz/Mir.m3u8
-#EXTINF:-1,Мир сериала [IV_1]
-http://46.32.68.167/s/live/261/86.169.51.136/0/0.m3u8
-#EXTINF:-1,Муз ТВ [IV_3]
-http://46.32.68.167/s/live/20/86.169.51.136/0/0.m3u8
 #EXTINF:-1,МузСоюз [IV_1]
 http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8
 #EXTINF:-1,НТВ [IV_1]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,НТВ [IV_2]
-http://46.32.68.167/s/live/4/51.51.51.51/0/0.m3u8
-#EXTINF:-1,НТВ [IV_3]
-http://46.32.68.167/s/live/4/86.169.51.136/0/0.m3u8
-#EXTINF:-1,НТВ [IV_4]
-http://gorod.tv/s/live/4/ssiptv/0/0.m3u8
 #EXTINF:-1,НТВ Беларусь [IV_1]
 http://178.124.183.5/hls/DYJ5GH8HOK_HLS/variant.m3u8?version=2
 #EXTINF:-1,НТВ Мир Baltic [IV_1]
 http://185.176.117.243/live/eds/NTV_Mir/HLS_encr/NTV_Mir.m3u8
 #EXTINF:-1,НТВ Мир Балтика [IV_1]
 http://88.119.220.2/live/eds/NTV_Mir/HLS_encr/NTV_Mir.m3u8
+#EXTINF:-1,Новый Мир [IV_1]
+http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 #EXTINF:-1,Новый мир [IV_1]
 http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
-#EXTINF:-1,Первый HD [IV_1]
-http://46.32.68.167/s/live/937/86.169.51.136/0/0.m3u8
 #EXTINF:-1,Первый Балтийский музыкальный канал [IV_1]
 https://streamer5.tvdom.tv/in/tvdom/tracks-v1a1/index.m3u8
 #EXTINF:-1,Первый Деловой [IV_1]
@@ -239,8 +183,6 @@ http://rt-vlg-kirov-htlive-lb.cdn.ngenix.net/hls/CH_R03_OTT_VLG_KIROV_PERVYGOROD
 http://rt-sib-omsk-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8?version=2
 #EXTINF:0,Первый канал [IV_1]
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_1TV/variant.m3u8?version=2
-#EXTINF:-1,Первый канал [IV_2]
-http://gorod.tv/s/live/1/ssiptv/0/0.m3u8
 #EXTINF:0,Первый канал (+5) [IV_1]
 http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_IRK_1TV/variant.m3u8?version=2
 #EXTINF:0,Первый канал (+6) [IV_1]
@@ -249,97 +191,53 @@ http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R03_1TV/variant.m3u8?version=2
 http://stream.euroasia.lfstrm.tv/perviy_evrasia/1/index.m3u8
 #EXTINF:-1,Первый республиканский [IV_1]
 http://ott.inmart.tv:8081/18/index.m3u8
-#EXTINF:-1,Пятница [IV_1]
-http://gorod.tv/s/live/16/ssiptv/0/0.m3u8
 #EXTINF:-1,Пятница HD [IV_1]
 https://bl.zxz.su/live/317843/HLS/4614144_3,2883584_1,1153024_2/1565365354/7f8af41900de19bdc17d60ec3cc113ca/playlist.m3u8
 #EXTINF:-1,Пятница! [IV_1]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Пятница! [IV_2]
-http://46.32.68.167/s/live/16/86.169.51.136/0/0.m3u8
 #EXTINF:-1,РORTAL FOXMIX TV [IV_1]
 http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.m3u8
 #EXTINF:-1,РЕН ТВ [IV_1]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,РЕН ТВ [IV_3]
-http://46.32.68.167/s/live/11/86.169.51.136/0/0.m3u8
-#EXTINF:-1,РЕН ТВ [IV_4]
-http://gorod.tv/s/live/11/ssiptv/0/0.m3u8
 #EXTINF:-1,РЕН ТВ Baltic [IV_1]
 http://185.176.117.243/live/eds/Ren_TV/HLS_encr/Ren_TV.m3u8
 #EXTINF:-1,Рен ТВ [IV_2]
 http://185.176.117.243/live/eds/Ren_TV/HLS_encr/Ren_TV.m3u8
-#EXTINF:-1,Рен ТВ [IV_5]
+#EXTINF:-1,Рен ТВ [IV_3]
 http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
 #EXTINF:-1,Рен ТВ Балтика [IV_1]
 http://88.119.220.2/live/eds/Ren_TV/HLS_encr/Ren_TV.m3u8
 #EXTINF:-1,Россия 1 [IV_1]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Россия 1 [IV_2]
-http://gorod.tv/s/live/2/ssiptv/0/0.m3u8
 #EXTINF:-1,Россия 1 (+6) [IV_1]
 http://tv-online.gtrkchita.ru:8080/hls/r1-chita_360p.m3u8
 #EXTINF:-1,Россия 1 HD [IV_1]
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist_4.m3u8
-#EXTINF:-1,Россия 1 HD [IV_2]
-http://46.32.68.167/s/live/938/86.169.51.136/0/0.m3u8
 #EXTINF:-1,Россия 24 [IV_1]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Россия 24 [IV_2]
-http://46.32.68.167/s/live/7/51.51.51.51/0/0.m3u8
-#EXTINF:-1,Россия 24 [IV_3]
-http://46.32.68.167/s/live/7/86.169.51.136/0/0.m3u8
-#EXTINF:-1,Россия 24 [IV_4]
-http://gorod.tv/s/live/7/ssiptv/0/0.m3u8
 #EXTINF:-1,Россия К [IV_1]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Россия К [IV_2]
-http://46.32.68.167/s/live/16/51.51.51.51/0/0.m3u8
-#EXTINF:-1,Россия К [IV_3]
-http://46.32.68.167/s/live/6/86.169.51.136/0/0.m3u8
-#EXTINF:-1,Россия К [IV_4]
-http://gorod.tv/s/live/6/ssiptv/0/0.m3u8
+#EXTINF:-1,Русский Бестселлер [IV_1]
+http://217.25.216.4:8085/udp/238.2.1.25:1234
 #EXTINF:-1,СТС [IV_1]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,СТС [IV_2]
-http://46.32.68.167/s/live/13/86.169.51.136/0/0.m3u8
-#EXTINF:-1,СТС [IV_3]
-http://gorod.tv/s/live/13/ssiptv/0/0.m3u8
 #EXTINF:-1,СТС International [IV_1]
 http://sc.id-tv.kz/STS_36_37.m3u8
 #EXTINF:-1,СТС Kids [IV_1]
 http://178.124.183.5/hls/CH_CTCKIDS/variant.m3u8?version=2
 #EXTINF:-1,СТС Love [IV_1]
 http://dmitry-tv.ru/his/itv_zabava/CH_STSLOVE.m3u8
-#EXTINF:-1,СТС Love [IV_2]
-http://46.32.68.167/s/live/807/86.169.51.136/0/0.m3u8
-#EXTINF:-1,Славянский Мир [IV_1]
-http://n1.slavmir.tv:1935/live/Cinegy.stream/playlist.m3u8
 #EXTINF:-1,ТВЦ [IV_1]
 http://tvc-hls.cdnvideo.ru/tvc-p222/smil:tvc_p11.smil/playlist.m3u8
-#EXTINF:-1,ТВЦ [IV_2]
-http://46.32.68.167/s/live/10/86.169.51.136/0/0.m3u8
-#EXTINF:-1,ТВЦ [IV_3]
-http://gorod.tv/s/live/10/ssiptv/0/0.m3u8
 #EXTINF:-1,ТВЦ (Международный) [IV_1]
 http://ad-hls-tvc.cdnvideo.ru/tvc-p222/smil:tvc.smil/chunklist_b1682100.m3u8
 #EXTINF:-1,ТНТ [IV_1]
-http://46.32.68.167/s/live/19/51.51.51.51/0/0.m3u8
-#EXTINF:-1,ТНТ [IV_2]
-http://46.32.68.167/s/live/19/86.169.51.136/0/0.m3u8
-#EXTINF:-1,ТНТ [IV_3]
-http://gorod.tv/s/live/19/ssiptv/0/0.m3u8
-#EXTINF:-1,ТНТ [IV_4]
 https://bl.zxz.su/live/317850/HLS/4614144_3,2883584_1,1153024_2/1565141337/3e73f36499c45a98dd5663038a8701fa/playlist.m3u8
-#EXTINF:-1,ТНТ [IV_5]
+#EXTINF:-1,ТНТ [IV_2]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,ТНТ Exclusive (Молдова) [IV_1]
 http://89.28.25.122/hls/tnt_md.m3u8
 #EXTINF:-1,ТНТ Music [IV_1]
 http://178.124.183.5/hls/BCJGRB3KAX/variant.m3u8?version=2
 #EXTINF:-1,ТНТ4 [IV_1]
-http://46.32.68.167/s/live/816/86.169.51.136/0/0.m3u8
-#EXTINF:-1,ТНТ4 [IV_2]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Футбол 1 HD [IV_1]
-http://188.35.9.10:2007
