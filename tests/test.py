@@ -31,7 +31,7 @@ def test1():
     ]
 
     zip_playlist_array = [
-        'https://www.iptv4sat.com/download-attachment/dI6Dj8ur2XCCyAjyOFt48PYF_UAmqYRi9aE3YiFJrB0' 
+        #'https://www.iptv4sat.com/download-attachment/dI6Dj8ur2XCCyAjyOFt48PYF_UAmqYRi9aE3YiFJrB0' 
     ]
 
     plDown = PlaylistDownloader(playlist_array, zip_playlist_array)
