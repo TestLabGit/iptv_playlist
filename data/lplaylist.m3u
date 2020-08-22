@@ -5,6 +5,8 @@ http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
 http://193.46.210.28/stream/uwa52b6cadvxu247y25yab92s34fxd6537z7vneq3ma2pdne5t78dn46aqfqyudnmazxvxg2z8nts7enmhcwx9fdhaj79f3ejmxsixmrbmjzu7r2faw77qgd66i43id58afhfdmxc9pqw2yr46zn2===.m3u8
 #EXTINF:-1,=== Обсуждение: smarttvnews.ru === [IV_1]
 https://smarttvnews.ru/wp-content/uploads/2018/11/BT-2016-logo_color7890.png
+#EXTINF:-1,EU.Music HD [IV_1]
+http://54.36.109.228/21100/mono.m3u8
 #EXTINF:-1,Eurosport 1 HD [IV_1]
 https://plbl.m9.lfstrm.tv/eurosport_hd/normal/3/index.m3u8
 #EXTINF:-1,Eurosport 4K [IV_1]
@@ -15,17 +17,13 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u
 http://dmitry-tv.my1.ru/his/itv_zabava/01/CH_EUROSPORT4K_HLSUHD.m3u8
 #EXTINF:-1,Extreme Sports (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id213_NBN_SG--ExtremeSport/03/plst.m3u8
-#EXTINF:-1,FOX [IV_1]
-http://hlstv.kem.211.ru/239.211.211.91/stream.m3u8
-#EXTINF:-1,FOX Life [IV_1]
-http://hlstv.kem.211.ru/239.211.200.18/stream.m3u8
 #EXTINF:-1,FOX_HD [IV_1]
 http://live-ng-01.more.tv/hls/FOX_HD/index_1.m3u8
 #EXTINF:-1,First Music channel HD [IV_1]
 http://hz1.teleport.cc/HLS/HD.m3u8
-#EXTINF:-1,Fox [IV_2]
+#EXTINF:-1,Fox [IV_1]
 https://plbl.m9.lfstrm.tv/fox/normal/1/index.m3u8
-#EXTINF:-1,Fox Life [IV_2]
+#EXTINF:-1,Fox Life [IV_1]
 https://plbl.m9.lfstrm.tv/fox_life/normal/1/index.m3u8
 #EXTINF:-1,Fox_Life_HD [IV_1]
 http://live-ng-01.more.tv/hls/Fox_Life_HD/index_1.m3u8
@@ -48,15 +46,9 @@ http://live02-cdn.tv.ti.ru:80/dtv/id212_NBN_SG--MTVRocks/03/plst.m3u8
 #EXTINF:-1,Musicbox Gold (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id220_NBN_SG--musicbox/03/plst.m3u8
 #EXTINF:-1,Nat Geo Wild [IV_1]
-http://hlstv.kem.211.ru/239.211.211.42/stream.m3u8
-#EXTINF:-1,Nat Geo Wild [IV_2]
 https://plbl.m9.lfstrm.tv/nat_geo_wild/normal/1/index.m3u8
-#EXTINF:-1,National Geographic [IV_1]
-http://hlstv.kem.211.ru/239.211.211.40/stream.m3u8
 #EXTINF:0,National Geographic HD [IV_1]
 http://live-ng-01.more.tv/hls/NGC_HD/master.m3u8
-#EXTINF:-1,National Geographic HD [IV_2]
-http://hlstv.kem.211.ru/239.211.200.16/stream.m3u8
 #EXTINF:-1,National Geographic Wild HD [IV_1]
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 #EXTINF:-1,National Geographic_HD [IV_1]
@@ -64,8 +56,6 @@ http://live-ng-01.more.tv/hls/NGC_HD/index_1.m3u8
 #EXTINF:-1,NewsOne [IV_1]
 https://bozztv.com/36bay2/gin/giniko_newsone_700kb_36bay2/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Nickelodeon [IV_1]
-http://hlstv.kem.211.ru/239.211.211.30/stream.m3u8
-#EXTINF:-1,Nickelodeon [IV_2]
 http://178.217.72.66/225.201.2.152/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Nickelodeon HD [IV_1]
 http://178.217.72.66/225.201.2.35/tracks-v1a1/mono.m3u8
@@ -74,8 +64,6 @@ http://rtmp.one.by:2200
 #EXTINF:-1,One.by Россия HD [IV_1]
 http://rtmp.one.by:2300
 #EXTINF:-1,Paramount Comedy [IV_1]
-http://hlstv.kem.211.ru/239.211.211.73/stream.m3u8
-#EXTINF:-1,Paramount Comedy [IV_2]
 https://plbl.m9.lfstrm.tv/paramount_comedy_hd/normal/3/index.m3u8?account=3f378f7832e53c10&origin=m9-dvr2&provider_id=5bbf1e6e7bf7c4facb5e43e8
 #EXTINF:-1,Portal Foxmix TV [IV_1]
 http://149.56.17.92:1935/portalfoxmix/portalfoxmix/playlist.m3u8
@@ -85,12 +73,16 @@ http://stream.mediawork.cz/retrotv/smil:retrotv2.smil/chunklist_w680437373_b7500
 http://web.onair-radio.eu:1935/video/video/chunklist_w1235825277.m3u8
 #EXTINF:-1,Retro Music [IV_1]
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+#EXTINF:-1,Retro music 80 – 90-р [IV_1]
+http://v3.catcast.me/content/36987/index.m3u8
 #EXTINF:-1,Russian MusicBox [IV_1]
 http://serv25.vintera.tv:8081/test/rusmusbox/playlist.m3u8
 #EXTINF:-1,Russian Musicbox (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id208_NBN_SG--MusicBoxRU/02/plst.m3u8
 #EXTINF:-1,ViP_Comedy_HD [IV_1]
 http://live-ng-01.more.tv/hls/ViP_Comedy_HD/index_1.m3u8
+#EXTINF:-1,Viasat Nature [IV_1]
+https://plbl.m9.lfstrm.tv/viasat_nature/normal/1/index.m3u8
 #EXTINF:0,Viasat Sport [IV_1]
 http://109.239.208.82:80/viasatshd/index.m3u8
 #EXTINF:-1,Viasat Sport [IV_2]
@@ -163,6 +155,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/bw2000000/variant.m3u8?version=2
 http://live02-cdn.tv.ti.ru:80/dtv/id196_NBN_SG--NTV/03/plst.m3u8
 #EXTINF:-1,НТВ HD [IV_1]
 https://live-hls-tvplusonline.cdnvideo.ru/ntvhd/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Новый Мир [IV_1]
+http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 #EXTINF:-1,Новый мир [IV_1]
 http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 #EXTINF:-1,Открытый Мир (ForkPlayer) [IV_1]
@@ -171,8 +165,6 @@ http://live02-cdn.tv.ti.ru:80/dtv/id699_NBN_SG--otkritij_mir/03/plst.m3u8
 https://plbl.m9.lfstrm.tv/otkritij_mir/normal/index.m3u8?account=3f378f7832e53c10&amp;origin=m9-dvr1&amp;provider_id=5bbf1e6e7bf7c4facb5e43e8
 #EXTINF:-1,Первый [IV_1]
 http://stream3.kuvalda.tv/hls/first.m3u8
-#EXTINF:-1,Первый Вегетарианский (ForkPlayer) [IV_1]
-http://live02-cdn.tv.ti.ru:80/dtv/id751_NBN_SG--1_vegetable/01/plst.m3u8
 #EXTINF:-1,Первый Городской (Одесса) [IV_1]
 http://91.194.79.46:8081/stream1/channel1/playlist.m3u8
 #EXTINF:-1,Первый Канал (ForkPlayer) [IV_1]
@@ -254,11 +246,11 @@ https://sc.id-tv.kz/RenTV_38_39.m3u8
 #EXTINF:-1,РенТВ [IV_4]
 https://plbl.m9.lfstrm.tv/rentv/normal/1/index.m3u8
 #EXTINF:-1,Россия 1 [IV_1]
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Россия 1 [IV_2]
 http://stream3.kuvalda.tv/hls/rus1.m3u8
-#EXTINF:-1,Россия 1 [IV_3]
+#EXTINF:-1,Россия 1 [IV_2]
 https://plbl.m9.lfstrm.tv/rossia1/normal/1/index.m3u8
+#EXTINF:-1,Россия 1 [IV_3]
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,Россия 1 (+6) [IV_1]
 http://tv-online.gtrkchita.ru:8080/hls/r1-chita_360p.m3u8
 #EXTINF:-1,Россия 1 (ForkPlayer) [IV_1]
@@ -266,19 +258,19 @@ http://live02-cdn.tv.ti.ru:80/dtv/id188_NBN_SG--Rossia1/03/plst.m3u8
 #EXTINF:-1,Россия 1 HD [IV_1]
 http://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
 #EXTINF:-1,Россия 24 [IV_1]
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Россия 24 [IV_2]
 http://stream3.kuvalda.tv/hls/rus24.m3u8
-#EXTINF:-1,Россия 24 [IV_3]
+#EXTINF:-1,Россия 24 [IV_2]
 https://plbl.m9.lfstrm.tv/rossia24/normal/1/index.m3u8
+#EXTINF:-1,Россия 24 [IV_3]
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,Россия 24 (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id165_NBN_SG--Rossia24/03/plst.m3u8
 #EXTINF:-1,Россия 24 HD [IV_1]
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
 #EXTINF:-1,Россия К [IV_1]
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Россия К [IV_2]
 http://stream3.kuvalda.tv/hls/kultura.m3u8
+#EXTINF:-1,Россия К [IV_2]
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,Россия К (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id163_NBN_SG--RossiaK/03/plst.m3u8
 #EXTINF:-1,Русский бестселлер [IV_1]
@@ -290,8 +282,6 @@ http://stream3.kuvalda.tv/hls/sts.m3u8
 #EXTINF:-1,СТС [IV_2]
 https://sc.id-tv.kz/STS_34_35.m3u8
 #EXTINF:-1,СТС [IV_3]
-https://plbl.m9.lfstrm.tv/sts/normal/1/index.m3u8
-#EXTINF:-1,СТС [IV_4]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,СТС (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id121_NBN_SG--sts/03/plst.m3u8
