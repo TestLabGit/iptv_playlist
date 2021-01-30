@@ -19,14 +19,16 @@ http://51.68.140.190:8081/tv/fox-life/playlist.m3u8
 http://hitmusic.hu/hitmusic.m3u8
 #EXTINF:-1,Hit music [IV_1]
 http://hitmusic.hu/hitmusic.m3u8
+#EXTINF:-1,MTV HD [IV_1]
+http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/index_3500_av-b.m3u8
+#EXTINF:-1,MTV HD (En) [IV_1]
+http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/index_3500_av-b.m3u8
 #EXTINF:-1,MTV HD Russian [IV_1]
 https://plbl.m9.lfstrm.tv/mtv_hd/normal/index.m3u8
 #EXTINF:-1,Musicbox Gold (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id220_NBN_SG--musicbox/03/plst.m3u8
 #EXTINF:-1,Nat Geo Wild [IV_1]
 https://plbl.m9.lfstrm.tv/nat_geo_wild/normal/1/index.m3u8
-#EXTINF:-1,National Geographic [IV_1]
-http://51.195.44.53:8081/tv/national-geographic/chunks.m3u8
 #EXTINF:-1,National Geographic Wild HD [IV_1]
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 #EXTINF:-1,News One [IV_1]
@@ -38,8 +40,6 @@ http://rtmp.one.by:2200
 #EXTINF:-1,One.by Россия HD [IV_1]
 http://rtmp.one.by:2300
 #EXTINF:-1,Paramount Comedy [IV_1]
-http://89.189.191.250/239.211.211.73/stream.m3u8
-#EXTINF:-1,Paramount Comedy [IV_2]
 https://plbl.m9.lfstrm.tv/paramount_comedy_hd/normal/3/index.m3u8?account=3f378f7832e53c10&origin=m9-dvr2&provider_id=5bbf1e6e7bf7c4facb5e43e8
 #EXTINF:-1,Portal Foxmix TV [IV_1]
 http://149.56.17.92:1935/portalfoxmix/portalfoxmix/playlist.m3u8
@@ -49,16 +49,22 @@ http://stream.mediawork.cz/retrotv/smil:retrotv2.smil/chunklist_w680437373_b7500
 http://web.onair-radio.eu:1935/video/video/chunklist_w1235825277.m3u8
 #EXTINF:-1,Retro Music [IV_1]
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
-#EXTINF:-1,Russian MusicBox [IV_1]
-http://serv25.vintera.tv:8081/test/rusmusbox/playlist.m3u8
 #EXTINF:-1,Russian Musicbox (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id208_NBN_SG--MusicBoxRU/02/plst.m3u8
 #EXTINF:-1,VIP Comedy FHD [IV_1]
 http://195.189.105.158:9050/132/index.m3u8
+#EXTINF:-1,VIP Comedy HD [IV_1]
+http://freeiptv.uk.to:8738/mfolive.m3u8?media=vip_comedy
+#EXTINF:-1,Viasat Explore HD [IV_1]
+http://freeiptv.uk.to:8738/mfolive.m3u8?media=viasat_explore
 #EXTINF:-1,Viasat History [IV_1]
 https://s1.idata.uz/stch_temp20/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Viasat History HD [IV_1]
+http://freeiptv.uk.to:8738/mfolive.m3u8?media=viasat_history
 #EXTINF:-1,Viasat Nature [IV_1]
 https://plbl.m9.lfstrm.tv/viasat_nature/normal/1/index.m3u8
+#EXTINF:-1,Viasat Nature FHD [IV_1]
+http://freeiptv.uk.to:8738/mfolive.m3u8?media=viasat_nature
 #EXTINF:-1,Viasat Sport [IV_1]
 https://plbl.m9.lfstrm.tv/viasat_sport/normal/1/index.m3u8
 #EXTINF:-1,Астрахань.Ru Sport [IV_1]
@@ -99,16 +105,12 @@ https://plbl.m9.lfstrm.tv/mir_uvlecheniy/normal/1/index.m3u8
 http://live02-cdn.tv.ti.ru:80/dtv/id132_NBN_SG--muz-tv/03/plst.m3u8
 #EXTINF:-1,МузСоюз [IV_1]
 http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8
-#EXTINF:-1,МультиМузыка [IV_1]
-https://plbl.m9.lfstrm.tv/strana/normal/1/index.m3u8?account=b61070fc2bc6614c&amp;client=689fed54f633d6a4
 #EXTINF:-1,Мультимузыка (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id233_NBN_SG--Strana/03/plst.m3u8
 #EXTINF:-1,НТВ [IV_1]
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,НТВ [IV_2]
-http://51.195.44.53:8081/tv/ntv/chunks.m3u8
-#EXTINF:-1,НТВ [IV_3]
 https://plbl.m9.lfstrm.tv/ntv/normal/1/index.m3u8?account=3f378f7832e53c10&origin=m9-live4&provider_id=5bbf1e6e7bf7c4facb5e43e8
+#EXTINF:-1,НТВ [IV_2]
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,НТВ (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id196_NBN_SG--NTV/03/plst.m3u8
 #EXTINF:-1,НТВ Хит [IV_1]
@@ -137,8 +139,6 @@ http://rtmp.one.by:2200
 http://rtmp.one.by:2300
 #EXTINF:-1,Первый Образовательный (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id523_NBN_SG--pervobraz/03/plst.m3u8
-#EXTINF:-1,Первый СССР [IV_1]
-http://62.76.27.70:8081/1pnk/1pnk/playlist.m3u8
 #EXTINF:-1,Первый Тульский [IV_1]
 http://rt-ct-tula-htlive-lb.cdn.ngenix.net/hls/CH_R01_PERV_TUL/variant.m3u8?version=2
 #EXTINF:-1,Первый Ярославский [IV_1]
@@ -181,15 +181,19 @@ https://plbl.m9.lfstrm.tv/pyatnitsa_hd_ott/normal/3/index.m3u8?account=3f378f783
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,РORTAL FOXMIX TV [IV_1]
 http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.m3u8
-#EXTINF:-1,РЕН ТВ [IV_1]
+#EXTINF:-1,РЕН ТВ [IV_4]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Рен ТВ [IV_2]
+#EXTINF:-1,Рен ТВ [IV_1]
 https://sc.id-tv.kz/RenTV_34_35.m3u8
-#EXTINF:-1,Рен ТВ [IV_3]
+#EXTINF:-1,Рен ТВ [IV_2]
+http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
+#EXTINF:-1,Рен ТВ HD [IV_1]
 http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
 #EXTINF:-1,Рен ТВ International [IV_1]
 https://sc.id-tv.kz/RenTV_38_39.m3u8
-#EXTINF:-1,РенТВ [IV_4]
+#EXTINF:-1,Рен ТВ International [IV_2]
+http://sc.id-tv.kz/RenTV_36_37.m3u8
+#EXTINF:-1,РенТВ [IV_3]
 https://plbl.m9.lfstrm.tv/rentv/normal/1/index.m3u8
 #EXTINF:-1,Россия 1 [IV_1]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/bw2000000/variant.m3u8?version=2
@@ -202,9 +206,9 @@ http://live02-cdn.tv.ti.ru:80/dtv/id188_NBN_SG--Rossia1/03/plst.m3u8
 #EXTINF:-1,Россия 1 HD [IV_1]
 http://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
 #EXTINF:-1,Россия 24 [IV_1]
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,Россия 24 [IV_2]
 https://plbl.m9.lfstrm.tv/rossia24/normal/1/index.m3u8
+#EXTINF:-1,Россия 24 [IV_2]
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,Россия 24 (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id165_NBN_SG--Rossia24/03/plst.m3u8
 #EXTINF:-1,Россия 24 HD [IV_1]
@@ -217,15 +221,17 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/bw2000000/variant.m3u8?versio
 http://live02-cdn.tv.ti.ru:80/dtv/id163_NBN_SG--RossiaK/03/plst.m3u8
 #EXTINF:-1,Россия РТР [IV_1]
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/playlist_3.m3u8
-#EXTINF:-1,Русский Бестселлер [IV_1]
+#EXTINF:-1,Русский Бестселлер [IV_3]
 http://51.68.141.106:8081/tv/rus-bestceller/chunks.m3u8
-#EXTINF:-1,Русский бестселлер [IV_2]
+#EXTINF:-1,Русский бестселлер [IV_1]
 http://bit.do/yosso_RusskijBe
-#EXTINF:-1,Русский бестселлер [IV_3]
+#EXTINF:-1,Русский бестселлер [IV_2]
 https://plbl.m9.lfstrm.tv/russkiy_bestseller/normal/1/index.m3u8?account=3f378f7832e53c10&amp;origin=m9-dvr1&amp;provider_id=5bbf1e6e7bf7c4facb5e43e8
 #EXTINF:-1,СТС [IV_1]
 https://sc.id-tv.kz/STS_34_35.m3u8
 #EXTINF:-1,СТС [IV_2]
+https://plbl.m9.lfstrm.tv/sts/normal/1/index.m3u8
+#EXTINF:-1,СТС [IV_3]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,СТС (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id121_NBN_SG--sts/03/plst.m3u8
@@ -246,9 +252,9 @@ http://live02-cdn.tv.ti.ru:80/dtv/id148_NBN_SG--TVC/03/plst.m3u8
 #EXTINF:-1,ТВЦ (Международный) [IV_1]
 http://ad-hls-tvc.cdnvideo.ru/tvc-p222/smil:tvc.smil/chunklist_b1682100.m3u8
 #EXTINF:-1,ТНТ [IV_1]
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,ТНТ [IV_2]
 https://plbl.m9.lfstrm.tv/tntmoskva/normal/1/index.m3u8?account=3f378f7832e53c10&origin=m9-dvr1&provider_id=5bbf1e6e7bf7c4facb5e43e8
+#EXTINF:-1,ТНТ [IV_2]
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,ТНТ (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id119_NBN_SG--tnt/03/plst.m3u8
 #EXTINF:-1,ТНТ Exclusive (Молдова) [IV_1]
@@ -260,10 +266,10 @@ http://live02-cdn.tv.ti.ru:80/dtv/id379_NBN_SG--A_One/03/plst.m3u8
 #EXTINF:-1,ТНТ-Music [IV_1]
 https://plbl.m9.lfstrm.tv/a_one_hip_hop/normal/1/index.m3u8?account=3f378f7832e53c10&amp;origin=m9-dvr1&amp;provider_id=5bbf1e6e7bf7c4facb5e43e8
 #EXTINF:-1,ТНТ4 [IV_1]
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/bw2000000/variant.m3u8?version=2
-#EXTINF:-1,ТНТ4 [IV_2]
 https://sc.id-tv.kz/tnt4_38_39.m3u8
-#EXTINF:-1,ТНТ4 [IV_3]
+#EXTINF:-1,ТНТ4 [IV_2]
 https://plbl.m9.lfstrm.tv/comedytv/normal/index.m3u8?account=3f378f7832e53c10&origin=m9-dvr2&provider_id=5bbf1e6e7bf7c4facb5e43e8
+#EXTINF:-1,ТНТ4 [IV_3]
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/bw2000000/variant.m3u8?version=2
 #EXTINF:-1,–entermusictv2— [IV_1]
 http://v3.catcast.me/contentv2/36007/index.m3u8#EXTM3U
