@@ -21,12 +21,16 @@ http://51.68.140.190:8081/tv/fox-life/playlist.m3u8
 http://hitmusic.hu/hitmusic.m3u8
 #EXTINF:-1,Hit music [IV_1]
 http://hitmusic.hu/hitmusic.m3u8
+#EXTINF:-1,MTV HD [IV_1]
+http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/index_3500_av-b.m3u8
+#EXTINF:-1,MTV HD (En) [IV_1]
+http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/index_3500_av-b.m3u8
 #EXTINF:-1,MTV HD Russian [IV_1]
 https://plbl.m9.lfstrm.tv/mtv_hd/normal/index.m3u8
 #EXTINF:-1,Musicbox Gold (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id220_NBN_SG--musicbox/03/plst.m3u8
-#EXTINF:-1,Nat Geo Wild [IV_1]
-https://plbl.m9.lfstrm.tv/nat_geo_wild/normal/1/index.m3u8
+#EXTINF:-1,National Geographic [IV_1]
+http://51.195.44.53:8081/tv/national-geographic/chunks.m3u8
 #EXTINF:-1,National Geographic HD [IV_1]
 http://freeiptv.uk.to:8738/mfolive.m3u8?media=national_geographic
 #EXTINF:-1,National Geographic Wild HD [IV_1]
@@ -47,8 +51,6 @@ http://web.onair-radio.eu:1935/video/video/chunklist_w1235825277.m3u8
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1,Russian Musicbox (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id208_NBN_SG--MusicBoxRU/02/plst.m3u8
-#EXTINF:-1,VF Comedy [IV_1]
-http://45.139.184.105:8888/play/a013/index.m3u8
 #EXTINF:-1,VIP Comedy FHD [IV_1]
 http://195.189.105.158:9050/132/index.m3u8
 #EXTINF:-1,VIP Comedy HD [IV_1]
@@ -104,15 +106,13 @@ https://plbl.m9.lfstrm.tv/strana/normal/1/index.m3u8?account=b61070fc2bc6614c&am
 #EXTINF:-1,Мультимузыка (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id233_NBN_SG--Strana/03/plst.m3u8
 #EXTINF:-1,НТВ [IV_1]
-http://51.195.44.53:8081/tv/ntv/chunks.m3u8
-#EXTINF:-1,НТВ [IV_2]
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/bw2000000/variant.m3u8?version=2
+#EXTINF:-1,НТВ [IV_2]
+http://51.195.44.53:8081/tv/ntv/chunks.m3u8
 #EXTINF:-1,НТВ [IV_3]
 https://plbl.m9.lfstrm.tv/ntv/normal/1/index.m3u8?account=3f378f7832e53c10&origin=m9-live4&provider_id=5bbf1e6e7bf7c4facb5e43e8
 #EXTINF:-1,НТВ (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id196_NBN_SG--NTV/03/plst.m3u8
-#EXTINF:-1,Новый Мир [IV_1]
-http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 #EXTINF:-1,Новый мир [IV_1]
 http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 #EXTINF:-1,Открытый Мир (ForkPlayer) [IV_1]
@@ -239,8 +239,6 @@ https://plbl.m9.lfstrm.tv/sts_kids/normal/3/index.m3u8?account=3f378f7832e53c10&
 http://51.68.141.106:8081/tv/sts-love/playlist.m3u8
 #EXTINF:-1,СТС Love [IV_2]
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
-#EXTINF:-1,СТС Love [IV_3]
-https://plbl.m9.lfstrm.tv/ctclove/normal/1/index.m3u8?account=3f378f7832e53c10&amp;origin=m9-dvr1&amp;provider_id=5bbf1e6e7bf7c4facb5e43e8
 #EXTINF:-1,ТВЦ (ForkPlayer) [IV_1]
 http://live02-cdn.tv.ti.ru:80/dtv/id148_NBN_SG--TVC/03/plst.m3u8
 #EXTINF:-1,ТВЦ (Международный) [IV_1]
